@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p> <a href='tel:+393513301266'> +393513301266 </a> </p>
     <p> <a href='mailto:mamindarijani@gmail.com'> mamindarijani@gmail.com </a> </p>
-    <p> <a href='[mailto:mamindarijani@gmail.com](https://www.google.com/maps/place/28100+Novara,+Province+of+Novara/@45.4432952,8.6162561,12z/data=!3m1!4b1!4m6!3m5!1s0x47865a1ed73beaff:0x405e67d473ca090!8m2!3d45.4472239!4d8.5996896!16zL20vMGQ0cHpu?entry=ttu)'> Novara, Italy </a> </p>
+    <p> <a href='https://maps.app.goo.gl/BYbsvwveHPLD4q6m8'> Novara, Italy </a> </p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
