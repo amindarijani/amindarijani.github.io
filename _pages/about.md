@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>+393513301266</p>
-    <p>mamindarijani@gmail.com</p>
+    <p><a href='#'>mamindarijani@gmail.com</a></p>
     <p>Novara, Italy</p>
 
 news: true  # includes a list of news items
