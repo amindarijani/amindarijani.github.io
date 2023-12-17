@@ -7,10 +7,10 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>+393513301266</p>
-    <p><a href='#'>mamindarijani@gmail.com</a></p>
+    <p><a href='#'>mailto: mamindarijani@gmail.com</a></p>
     <p>Novara, Italy</p>
 
 news: true  # includes a list of news items
