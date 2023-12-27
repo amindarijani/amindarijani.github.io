@@ -23,6 +23,32 @@
       description:
         - Dissertation Title: Evaluation of Cleaning Efficacy, Instrumentation Time, and Dentin Removal of Manual and Rotary Instrumentation Techniques in Primary Molars (Using Cone-Beam Computed Tomography)
 
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Research:
+      items: 
+        - Scientific Proposal Writing
+        - Designing Scientific Studies (observational, experimental, clinical trial, and review
+        - Data Extraction & Data Entry (into spreadsheets and statistical software)
+        - Data Analysis (qualitative and quantitative analysis)
+        - Data Visualization (Pandas Library, SPSS, Excel)
+        - Questionnaire Designing
+    - title: Computer & Data Management:
+      items:
+        - Statistical Software and Programming Languages (SPSS: Intermediate Level / R Studio, Python, Stata, CMA: Basic Knowledge)
+        - Content Management Systems and Web Developing (WordPress: Intermediate Level, Drupal: Intermediate Level, Static Websites (using HTML, CSS, JavaScript): Basic Level)
+        - Reference Management Software (Mendeley: Proficient, EndNote: Intermediate Level)
+        - Microsoft Office (Powerpoint & Word: Proficient, Excel: Intermediate Level)
+    - title: Laboratory:
+      items:
+        - Biochemistry Lab (Intermediate Knowledge)
+        - Physiology Lab (Intermediate Knowledge)
+        - Microbiology Lab (Intermediate Knowledge)
+
+        - Lab Safety / Dissection / Molecular Cloning / Cell Culture / Light & Fluorescence Microscopes / Centrifugation Techniques / Southern and Western Blotting / ELISA / PCR (All Basic Knowledge)
+
+
 - title: Experience
   type: time_table
   contents:
