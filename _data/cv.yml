@@ -30,6 +30,7 @@
       items: 
         - Scientific Proposal Writing
         - Designing Scientific Studies (observational, experimental, clinical trial, and review
+        - Manuscript Writing
         - Data Extraction & Data Entry (into spreadsheets and statistical software)
         - Data Analysis (qualitative and quantitative analysis)
         - Data Visualization (Pandas Library, SPSS, Excel)
@@ -47,6 +48,13 @@
         - Microbiology Lab (Intermediate Knowledge)
 
         - Lab Safety / Dissection / Molecular Cloning / Cell Culture / Light & Fluorescence Microscopes / Centrifugation Techniques / Southern and Western Blotting / ELISA / PCR (All Basic Knowledge)
+    - title: Others:
+      items: 
+        - Dental & Medical Image Annotating
+        - Content Writing (One Health, Digital Health, Information Technology, AI & ML in Medicine)
+        - Bioinformatics (Basic)
+        - CBCT Softwares (Cone Beam 3D Imaging NewTom / Planmeca Romexis: Intermediate Knowledge)
+        - DICOM (Digital Imaging and Communications in Medicine: Basic Knowledge)
 
 
 - title: Experience
