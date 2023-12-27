@@ -14,19 +14,14 @@
     - title: M.Sc. Medical Biotechnology
       institution: Kerman University of Medical Sciences, Kerman, Iran
       year: 2023 - 2025
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+      orientation:
+        - Cell Therapy, Tissue Engineering and Regenerative Medicine
+      
     - title: Doctor of Medicine in Dentistry (DMD)
       institution: Kerman University of Medical Sciences, Kerman, Iran
       year: 2015 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Dissertation Title: Evaluation of Cleaning Efficacy, Instrumentation Time, and Dentin Removal of Manual and Rotary Instrumentation Techniques in Primary Molars (Using Cone-Beam Computed Tomography)
 
 - title: Experience
   type: time_table
@@ -82,16 +77,26 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Research Interests.
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Dental Biomaterials for Clinical Applications.
+        - Dental & Oral Tissue Engineering.
+        - Applications of Bioactive Dental Materials and Molecules. 
+        - Implantology.
+        - Nanotechnologies in Diagnostic & Therapeutic Dentistry.
+        - Oral Bioscience.
+        - Dental Biomimetics.
+        - Regenerative Dentistry.
+        - Rehabilitative Dentistry.
+    - title: General Interests.
       items:
-        - Description 1.
-        - Description 2.
+        - One Health.
+        - Digital Health.
+        - Data Analytics.
+        - Data Science (AI, ML & DL). 
+        - Bioinformatics.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Rock Climbing, Alpinism, Nature.
