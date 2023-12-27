@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to My Personal Webpage
 
-Discovering the Blend of Health, Technology, and Medicine
+Discovering the Blend of Medicine & Technology.
 
 Hello! I'm Amin, an enthusiastic individual engaged in the realm of medical biotechnology. Currently pursuing an MSc in this field, my focus spans cell therapy, tissue engineering, and regenerative medicine, also offering a continuous journey into advanced biomedical sciences.
 
