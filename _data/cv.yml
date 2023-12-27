@@ -56,6 +56,62 @@
         - CBCT Softwares (Cone Beam 3D Imaging NewTom / Planmeca Romexis: Intermediate Knowledge)
         - DICOM (Digital Imaging and Communications in Medicine: Basic Knowledge)
 
+- title: Academic Workshops & Training
+  type: nested_list
+  contents:
+    - title: “Data Science”
+      items: 
+        - Kaggle Learning / (Nov. - Dec. 2023)
+        * Intro to Programming – Python – Intro to Machine Learning – Pandas – Data Visualization – Intro to AI Ethics
+    - title: “Data Science Math Skills”
+      items:
+        - Duke University (Through Coursera) / (Mar. 11, 2023) / (Credential ID: ZD8AYTUJEB7G)
+        * Bayes’ Theorem – Bayesian Probability – Probability Theory – Building Blocks for Problem Solving – Functions and Graphs – Measuring Rates of Change
+    - title: “The Data Scientist’s Toolbox” from “Data Science: R Specialization”
+      items:
+        - Johns Hopkins University Bloomberg School of Public Health (Through Coursera) / (Feb. 15, 2022) / (Credential ID: KT8ZLKVXEGFS)
+        * Setup R, R-Studio, Github - essential study design concepts – data problems – repository.
+
+    - title: “The Data Scientist’s Toolbox” from “Data Science: R Specialization”
+      items:
+        - Johns Hopkins University Bloomberg School of Public Health (Through Coursera) / (Feb. 15, 2022) / (Credential ID: KT8ZLKVXEGFS)
+        * Setup R, R-Studio, Github - essential study design concepts – data problems – repository.
+
+    - title: “An Introduction to Meta-Analysis Softwares; Stata, CMA, RevMan, R”
+      items:
+        -  Cochrane Iran Associate Center / (Jul 24th, 25th, 26th 2021) (Credential ID:600/25982)
+        * An overview of the concepts of meta-analysis.
+        * An introduction to the Stata, CMA, R and performing metanalysis in its environment, analyzing diagrams and outputs,  heterogeneity and its solutions.
+        * Introduction and application of RevMan software. 
+
+    - title: “SPSS 1, 2” & “Systematic Review and Meta-Analysis”
+      items:
+        - Students’ Scientific Research Center (SSRC), Tehran, Iran. / (July 3, 4, 2021) (Aug., 2021)
+        * Data entry - Primary and advanced data analysis - Reporting the results.
+        * Study planning – formulating research questions.
+
+    - title: “SPSS Statistical Analysis Software”
+      items:
+        - 5th International Congress on BioMedicine / (July 2021)
+        * Statistical modeling - Interpreting SPSS outputs/statistics - Analysis of questionnaires.
+
+    - title: “Cell Culture”
+      items:
+        - 5th International Congress on BioMedicine / (June 2021)
+        * Aseptic technique – thawing – counting – expanding – freezing.
+
+    - title: “Bioinformatics and Data Analysis”
+      items:
+        - 5th International Congress on BioMedicine / (May 2021)
+        * Introduction to bioinformatics, biological databases, comparative sequence analysis, and molecular phylogenetics. 
+
+   - title: “Comprehensive Course Rapid Research Education (RRE)”
+      items:
+        - Kerman University of Medical Sciences / (60 hours - Nov 2017)/ (Credential ID: 10/50/2600)
+        * Research methodology - Basic and advanced search - Proposal writing – Referencing.
+
+
+
 
 - title: Experience
   type: time_table
