@@ -2,9 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <p> <a href='https://www.uniupo.it/it'> University of Eastern Piedmont </a> </p>. Studying M.Sc. in Medical Biotechnology.
-          <p> <a href='https://kmu.ac.ir/en'> Kerman University of Medical Sciences </a> </p>. Studying M.Sc. in Medical Biotechnology.
-
+subtitle: <p> <a href='https://www.uniupo.it/it'> University of Eastern Piedmont </a> </p>
 
 profile:
   align: right
