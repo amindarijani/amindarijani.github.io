@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://amindarijani.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://amindarijani.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2023-12-28T00:52:48+00:00</updated><id>https://amindarijani.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Exploring the Role of Biomaterials in Medical Biotechnology</title><link href="https://amindarijani.github.io/blog/2023/tikzjax/" rel="alternate" type="text/html" title="Exploring the Role of Biomaterials in Medical Biotechnology"/><published>2023-12-22T10:00:00+00:00</published><updated>2023-12-22T10:00:00+00:00</updated><id>https://amindarijani.github.io/blog/2023/tikzjax</id><content type="html" xml:base="https://amindarijani.github.io/blog/2023/tikzjax/"><![CDATA[<p>Welcome to a captivating exploration into the realm of medical biotechnology, where the fusion of science and technology reshapes the landscape of healthcare. Today, we delve into the fundamental role of biomaterials in revolutionizing modern medicine.</p> <p><strong>The Foundation of Innovative Healthcare</strong></p> <script type="text/tikz">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://amindarijani.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://amindarijani.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2023-12-28T00:54:20+00:00</updated><id>https://amindarijani.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Exploring the Role of Biomaterials in Medical Biotechnology</title><link href="https://amindarijani.github.io/blog/2023/tikzjax/" rel="alternate" type="text/html" title="Exploring the Role of Biomaterials in Medical Biotechnology"/><published>2023-12-22T10:00:00+00:00</published><updated>2023-12-22T10:00:00+00:00</updated><id>https://amindarijani.github.io/blog/2023/tikzjax</id><content type="html" xml:base="https://amindarijani.github.io/blog/2023/tikzjax/"><![CDATA[<p>Welcome to a captivating exploration into the realm of medical biotechnology, where the fusion of science and technology reshapes the landscape of healthcare. Today, we delve into the fundamental role of biomaterials in revolutionizing modern medicine.</p> <p><strong>The Foundation of Innovative Healthcare</strong></p> <script type="text/tikz">
+\begin{tikzpicture}[scale=1.5]
+    % Rod of Asclepius
+    \draw[ultra thick, green] (0,0) -- (0,2.5);
+    \draw[ultra thick, green] (0,1) arc (180:0:0.5);
+    \draw[ultra thick, green] (1,1) arc (0:-180:0.5);
+    \fill[green] (0,0) circle (0.15);
+    
+    % Medical Cross
+    \draw[ultra thick, red] (3,0) -- (3,2);
+    \draw[ultra thick, red] (2.5,0.5) rectangle (3.5,1.5);
+    \fill[red] (3,0) circle (0.15);
+    \fill[red] (3,2) circle (0.15);
+    
+    % Heart Symbol
+    \draw[ultra thick, magenta] (6,0) arc (180:0:0.75);
+    \draw[ultra thick, magenta] (6,0) to[out=90,in=0] (6.75,1) to[out=180,in=90] (6,2) to[out=270,in=180] (5.25,1) to[out=0,in=270] (6,0);
+    
+    % Plus Symbol
+    \draw[ultra thick, blue] (9,1) circle (0.6);
+    \draw[ultra thick, blue] (8.4,1) -- (9.6,1);
+    \draw[ultra thick, blue] (8.9,0.5) -- (8.9,1.5);
+    
+    % Star of Life Symbol
+    \draw[ultra thick, orange] (12,0) -- (11.5,2);
+    \draw[ultra thick, orange] (11.5,2) -- (12.5,1);
+    \draw[ultra thick, orange] (12.5,1) -- (11,1);
+    \draw[ultra thick, orange] (11,1) -- (12,0);
+    \draw[ultra thick, orange] (11.75,0) -- (11.75,2);
+    
+    % Caption
+    \node at (0,-0.5) {Rod of Asclepius};
+    \node at (3,-0.5) {Medical Cross};
+    \node at (6,-0.5) {Heart Symbol};
+    \node at (9,-0.5) {Plus Symbol};
+    \node at (12,-0.5) {Star of Life};
+\end{tikzpicture}
+</script> <p>Biomaterials serve as the bedrock of innovation in modern healthcare. These materials, meticulously designed and engineered, hold the potential to transform the treatment landscape by interfacing with living systems to enhance healing, repair tissues, and provide support where nature falls short.</p> <p><strong>Molecular Design and Functional Impact</strong></p> <script type="text/tikz">
 \begin{tikzpicture}[scale=0.5]
     % DNA Backbone
     \draw[ultra thick] (0,0) -- (15,0);
@@ -29,21 +66,6 @@
     \draw[ultra thick, red] (0,0) to[out=70,in=110] (15,0);
     \draw[ultra thick, red] (0,2) to[out=-70,in=-110] (15,2);
     \draw[ultra thick, red] (0,-2) to[out=70,in=110] (15,-2);
-\end{tikzpicture}
-</script> <p>Biomaterials serve as the bedrock of innovation in modern healthcare. These materials, meticulously designed and engineered, hold the potential to transform the treatment landscape by interfacing with living systems to enhance healing, repair tissues, and provide support where nature falls short.</p> <p><strong>Molecular Design and Functional Impact</strong></p> <script type="text/tikz">
-\begin{tikzpicture}
-    % Visual representation of molecular design
-    \foreach \x/\y/\c in {0/0/green, 1/0.5/green, 2/0/green, 0/-0.2/green, 1/0.3/green, 2/-0.2/green, 0/-0.4/green, 1/0.1/green, 2/-0.4/green, 0/-0.6/green, 1/-0.1/green, 2/-0.6/green, 0/-0.8/green, 1/-0.3/green, 2/-0.8/green}{
-        \fill[\c] (\x,\y) circle (0.05);
-    }
-    % Adding a label for clarity
-    \node at (1, 1) {\textbf{Molecular Design}};
-    % Adding some connecting lines
-    \draw[green, ultra thick] (0,0) -- (1,0.5) -- (2,0);
-    \draw[green, ultra thick] (0,-0.2) -- (1,0.3) -- (2,-0.2);
-    \draw[green, ultra thick] (0,-0.4) -- (1,0.1) -- (2,-0.4);
-    \draw[green, ultra thick] (0,-0.6) -- (1,-0.1) -- (2,-0.6);
-    \draw[green, ultra thick] (0,-0.8) -- (1,-0.3) -- (2,-0.8);
 \end{tikzpicture}
 </script> <p>Molecular design lies at the core of biomaterial innovation. Through precise manipulation at the molecular level, these materials are tailored to exhibit specific properties, functionalities, and interactions with biological entities, heralding a new era of targeted therapies and tissue regeneration.</p> <p><strong>Interface with Living Systems</strong></p> <script type="text/tikz">
 \begin{tikzpicture}
