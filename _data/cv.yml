@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 21st April 1997
     - name: Languages
-      value: English, Persian
+      value: English (Proficient) (TOEFL iBT Score = 93 (R 22 / L 26 / S 19 / W 26) ---- Persian (Native)
 
 - title: Education
   type: time_table
@@ -30,7 +30,10 @@
   type: list
   contents:
     - <u>Computer & Data Management:</u> 1. Statistical Software and Programming Languages (SPSS, R, Python, Stata, CMA) 2. Content Management Systems and Web Development (WordPress, Drupal, Static Websites) 3. Reference Management Software (Mendeley, EndNote) 4. Microsoft Office (Powerpoint & Word, Excel)
-
+    - <u>Research:</u> 1. Scientific Proposal Writing 2. Designing Scientific Studies (observational, experimental, clinical trial, and review) 3. Manuscript Writing 4. Data Extraction & Data Entry (into spreadsheets and statistical software) 5. Data Analysis (qualitative and quantitative analysis) 6. Data Visualization (Pandas Library, SPSS, Excel) 7. Questionnaire Designing
+    - <u>Laboratory:</u> 1. Biochemistry Lab 2. Physiology Lab 3. Microbiology Lab 4. Immunology Lab 5. Anatomy & Histology Lab
+    - <u>Others:</u> 1. Dental & Medical Image Annotating 2. Content Writing (One Health, Digital Health, Information Technology, AI & ML in Medicine) 3. Bioinformatics 4. CBCT Softwares (Cone Beam 3D Imaging NewTom / Planmeca Romexis) 5. DICOM (Digital Imaging and Communications in Medicine)
+    
 - title: Experience
   type: time_table
   contents:
@@ -54,6 +57,7 @@
     - title: Research Assistant
       institution: Kerman University of Medical Sciences & USERN, Iran
       year: 2021 - 2022
+      description:
         - Pediatric Dentistry Dept.
         - Oral & Maxillofacial Medicine Dept.
         - Universal Council of Epidemiology (UCE) at USERN
