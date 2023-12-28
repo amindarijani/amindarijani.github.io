@@ -3,7 +3,7 @@ layout: post
 title:  Exploring the Marvels of Cell Therapy in Modern Medicine
 date:   2015-03-15 16:40:16
 description: Unveiling the revolutionary impact of cell therapy in healthcare.
-tags: formatting links
+tags: medical-biotechnology cell-therapy science innovation
 categories: sample-posts
 ---
 The Impact of Cell Therapy
