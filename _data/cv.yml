@@ -92,16 +92,57 @@
         - Teaching basic sciences and providing educational consultation. 
               
 
-- title: Honors and Awards
+- title: Academic Workshops & Training
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - “Data Science”
+        - Kaggle Learning
+        - Intro to Programming – Python – Intro to Machine Learning – Pandas – Data Visualization – Intro to AI Ethics
+    - year: 2023
       items: 
-        - Max Planck Medal
+        - “Data Science Math Skills”
+        - Duke University (Through Coursera) / (Credential ID: ZD8AYTUJEB7G)
+        - Bayes’ Theorem – Bayesian Probability – Probability Theory – Building Blocks for Problem Solving – Functions and Graphs – Measuring Rates of Change
+    - year: 2022
+      items: 
+        - “The Data Scientist’s Toolbox” from “Data Science: R Specialization”
+        - Johns Hopkins University Bloomberg School of Public Health (Through Coursera) / (Credential ID: KT8ZLKVXEGFS)
+        - Setup R, R-Studio, Github - essential study design concepts – data problems – repository.
+    - year: 2021
+      items: 
+        - “An Introduction to Meta-Analysis Softwares; Stata, CMA, RevMan, R”
+        -  Cochrane Iran Associate Center / (Credential ID:600/25982)
+        - An overview of the concepts of meta-analysis.
+        - An introduction to the Stata, CMA, R and performing metanalysis in its environment, analyzing diagrams and outputs,  heterogeneity and its solutions.
+        - Introduction and application of RevMan software. 
+    - year: 2021
+      items: 
+        - “SPSS 1, 2” & “Systematic Review and Meta-Analysis”
+        - Students’ Scientific Research Center (SSRC), Tehran, Iran.
+        - Data entry - Primary and advanced data analysis - Reporting the results.
+        - Study planning – formulating research questions.
+    - year: 2021
+      items: 
+        - “SPSS Statistical Analysis Software”
+        - 5th International Congress on BioMedicine 
+        - Statistical modeling - Interpreting SPSS outputs/statistics - Analysis of questionnaires.
+    - year: 2021
+      items: 
+        - “Cell Culture”
+        - 5th International Congress on BioMedicine 
+        - Aseptic technique – thawing – counting – expanding – freezing.
+    - year: 2021
+      items: 
+        - “Bioinformatics and Data Analysis”
+        - 5th International Congress on BioMedicine 
+        - Introduction to bioinformatics, biological databases, comparative sequence analysis, and molecular phylogenetics. 
+    - year: 2017
+      items: 
+        - “Comprehensive Course Rapid Research Education (RRE)”
+        - Kerman University of Medical Sciences / (Credential ID: 10/50/2600)
+        - Research methodology - Basic and advanced search - Proposal writing – Referencing.
 
 - title: Academic Interests
   type: nested_list
