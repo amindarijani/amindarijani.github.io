@@ -2,27 +2,31 @@
   type: map
   contents:
     - name: Full Name
-      value: Mohammadamin Darijani
+      value: Albert Einstein
     - name: Date of Birth
-      value: 21st April 1997
+      value: 14th March 1879
     - name: Languages
-      value: English (Proficient) (TOEFL iBT Score = 93 (R 22 / L 26 / S 19 / W 26) --- Persian (Native)
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: M.Sc. Medical Biotechnology
-      institution: Kerman University of Medical Sciences, Kerman, Iran
-      year: 2023 - 2025
-      orientation:
-        - Cell Therapy, Tissue Engineering and Regenerative Medicine
-      
-    - title: Doctor of Medicine in Dentistry (DMD)
-      institution: Kerman University of Medical Sciences, Kerman, Iran
-      year: 2015 - 2022
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - Dissertation Title: Evaluation of Cleaning Efficacy, Instrumentation Time, and Dentin Removal of Manual and Rotary Instrumentation Techniques in Primary Molars (Using Cone-Beam Computed Tomography)
-
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
+      description:
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
@@ -57,119 +61,37 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Skills
-  type: nested_list
+- title: Open Source Projects
+  type: time_table
   contents:
-    - title: Research:
-      items: 
-        - Scientific Proposal Writing
-        - Designing Scientific Studies (observational, experimental, clinical trial, and review
-        - Manuscript Writing
-        - Data Extraction & Data Entry (into spreadsheets and statistical software)
-        - Data Analysis (qualitative and quantitative analysis)
-        - Data Visualization (Pandas Library, SPSS, Excel)
-        - Questionnaire Designing
-    - title: Computer & Data Management:
-      items:
-        - Statistical Software and Programming Languages (SPSS: Intermediate Level / R Studio, Python, Stata, CMA: Basic Knowledge)
-        - Content Management Systems and Web Developing (WordPress: Intermediate Level, Drupal: Intermediate Level, Static Websites (using HTML, CSS, JavaScript): Basic Level)
-        - Reference Management Software (Mendeley: Proficient, EndNote: Intermediate Level)
-        - Microsoft Office (Powerpoint & Word: Proficient, Excel: Intermediate Level)
-    - title: Laboratory:
-      items:
-        - Biochemistry Lab (Intermediate Knowledge)
-        - Physiology Lab (Intermediate Knowledge)
-        - Microbiology Lab (Intermediate Knowledge)
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-        - Lab Safety / Dissection / Molecular Cloning / Cell Culture / Light & Fluorescence Microscopes / Centrifugation Techniques / Southern and Western Blotting / ELISA / PCR (All Basic Knowledge)
-    - title: Others:
-      items: 
-        - Dental & Medical Image Annotating
-        - Content Writing (One Health, Digital Health, Information Technology, AI & ML in Medicine)
-        - Bioinformatics (Basic)
-        - CBCT Softwares (Cone Beam 3D Imaging NewTom / Planmeca Romexis: Intermediate Knowledge)
-        - DICOM (Digital Imaging and Communications in Medicine: Basic Knowledge)
-
-
-- title: Academic Workshops & Training
-  type: nested_list
+- title: Honors and Awards
+  type: time_table
   contents:
-    - title: “Data Science”
+    - year: 1921
       items: 
-        - Kaggle Learning / (Nov. - Dec. 2023)
-        * Intro to Programming – Python – Intro to Machine Learning – Pandas – Data Visualization – Intro to AI Ethics
-    - title: “Data Science Math Skills”
-      items:
-        - Duke University (Through Coursera) / (Mar. 11, 2023) / (Credential ID: ZD8AYTUJEB7G)
-        * Bayes’ Theorem – Bayesian Probability – Probability Theory – Building Blocks for Problem Solving – Functions and Graphs – Measuring Rates of Change
-    - title: “The Data Scientist’s Toolbox” from “Data Science: R Specialization”
-      items:
-        - Johns Hopkins University Bloomberg School of Public Health (Through Coursera) / (Feb. 15, 2022) / (Credential ID: KT8ZLKVXEGFS)
-        * Setup R, R-Studio, Github - essential study design concepts – data problems – repository.
-
-    - title: “The Data Scientist’s Toolbox” from “Data Science: R Specialization”
-      items:
-        - Johns Hopkins University Bloomberg School of Public Health (Through Coursera) / (Feb. 15, 2022) / (Credential ID: KT8ZLKVXEGFS)
-        * Setup R, R-Studio, Github - essential study design concepts – data problems – repository.
-
-    - title: “An Introduction to Meta-Analysis Softwares; Stata, CMA, RevMan, R”
-      items:
-        -  Cochrane Iran Associate Center / (Jul 24th, 25th, 26th 2021) (Credential ID:600/25982)
-        * An overview of the concepts of meta-analysis.
-        * An introduction to the Stata, CMA, R and performing metanalysis in its environment, analyzing diagrams and outputs,  heterogeneity and its solutions.
-        * Introduction and application of RevMan software. 
-
-    - title: “SPSS 1, 2” & “Systematic Review and Meta-Analysis”
-      items:
-        - Students’ Scientific Research Center (SSRC), Tehran, Iran. / (July 3, 4, 2021) (Aug., 2021)
-        * Data entry - Primary and advanced data analysis - Reporting the results.
-        * Study planning – formulating research questions.
-
-    - title: “SPSS Statistical Analysis Software”
-      items:
-        - 5th International Congress on BioMedicine / (July 2021)
-        * Statistical modeling - Interpreting SPSS outputs/statistics - Analysis of questionnaires.
-
-    - title: “Cell Culture”
-      items:
-        - 5th International Congress on BioMedicine / (June 2021)
-        * Aseptic technique – thawing – counting – expanding – freezing.
-
-    - title: “Bioinformatics and Data Analysis”
-      items:
-        - 5th International Congress on BioMedicine / (May 2021)
-        * Introduction to bioinformatics, biological databases, comparative sequence analysis, and molecular phylogenetics. 
-
-   - title: “Comprehensive Course Rapid Research Education (RRE)”
-      items:
-        - Kerman University of Medical Sciences / (60 hours - Nov 2017)/ (Credential ID: 10/50/2600)
-        * Research methodology - Basic and advanced search - Proposal writing – Referencing.
-
-
+        - Nobel Prize in Physics 
+        - Matteucci Medal
+    - year: 2029
+      items: 
+        - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Research Interests.
+    - title: Topic 1.
       items: 
-        - Dental Biomaterials for Clinical Applications.
-        - Dental & Oral Tissue Engineering.
-        - Applications of Bioactive Dental Materials and Molecules. 
-        - Implantology.
-        - Nanotechnologies in Diagnostic & Therapeutic Dentistry.
-        - Oral Bioscience.
-        - Dental Biomimetics.
-        - Regenerative Dentistry.
-        - Rehabilitative Dentistry.
-    - title: General Interests.
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
       items:
-        - One Health.
-        - Digital Health.
-        - Data Analytics.
-        - Data Science (AI, ML & DL). 
-        - Bioinformatics.
+        - Description 1.
+        - Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Rock Climbing, Alpinism, Nature.
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
