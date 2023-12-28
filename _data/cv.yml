@@ -29,7 +29,7 @@
 - title: Skills
   type: list
   contents:
-    - <u>Computer & Data Management:</u> Hobby 1, Hobby 2, etc.
+    - <u>Computer & Data Management:</u> 1. Statistical Software and Programming Languages (SPSS, R, Python, Stata, CMA) 2. Content Management Systems and Web Development (WordPress, Drupal, Static Websites) 3. Reference Management Software (Mendeley, EndNote) 4. Microsoft Office (Powerpoint & Word, Excel)
 
 - title: Experience
   type: time_table
