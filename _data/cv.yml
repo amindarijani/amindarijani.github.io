@@ -12,21 +12,20 @@
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Eastern Piedmont, Novara, Italy
+      year: 2023-2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Cell Therapy
+        - Tissue Engineering
+        - Regenerative Medicine
+        
+    - title: Professional Doctorate Degree in Dentistry (DMD)
+      institution: Kerman University of Medical Sciences, Kerman, Iran
+      year: 2015-2022
       description:
-        - Description 1.
-        - Description 2.
+        - Dissertation Title: Evaluation of Cleaning Efficacy, Instrumentation Time, and Dentin Removal of Manual and Rotary Instrumentation
+Techniques in Primary Molars (Using Cone-Beam Computed Tomography)
+        
 
 - title: Skills
   type: list
