@@ -48,7 +48,7 @@ nav_order: 4
 <div>
   <a href="https://github.com/amindarijani">
     <img src="https://img.shields.io/badge/YOLO-3CAE1D?logo=github&logoColor=white" alt="YOLO Badge">
-    <img src="https://img.shields.io/badge/Pull%20shark-2EA9A1?logo=github&logoColor=white" alt="Pull Shark Badge">
+    <img src="https://img.shields.io/badge/Pull%20Shark-2EA9A1?logo=github&logoColor=white" alt="Pull Shark Badge">
     <!-- Add more badges with similar structure -->
   </a>
 </div>
