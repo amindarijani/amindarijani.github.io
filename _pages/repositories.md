@@ -42,3 +42,11 @@ nav_order: 4
   {% endfor %}
 </div>
 {% endif %}
+
+## GitHub Achievement Badges
+
+<div>
+  <a href="https://github.com/amindarijani">
+    <img src="https://github-profile-trophy.vercel.app/?username=amindarijani" alt="GitHub Profile Trophy">
+  </a>
+</div>
