@@ -43,7 +43,16 @@ nav_order: 4
 </div>
 {% endif %}
 
-## GitHub Achievement Badges
+## GitHub Achievements
+
+<div>
+  <a href="https://github.com/amindarijani">
+    <img src="https://img.shields.io/badge/YOLO-3CAE1D?logo=github&logoColor=white" alt="YOLO Badge">
+    <img src="https://img.shields.io/badge/Pull%20shark-2EA9A1?logo=github&logoColor=white" alt="Pull shark Badge">
+    <!-- Add more badges with similar structure -->
+  </a>
+</div>
+
 
 <div>
   <a href="https://github.com/amindarijani">
