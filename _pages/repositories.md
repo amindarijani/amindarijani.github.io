@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-## GitHub users
+## GitHub profile
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -47,6 +47,10 @@ nav_order: 4
 
 <div>
   <a href="https://github.com/amindarijani">
-    <img src="https://github-profile-trophy.vercel.app/?username=amindarijani" alt="GitHub Profile Trophy">
+    <img src="https://img.shields.io/github/followers/amindarijani?label=Followers&style=social" alt="Followers Badge">
+    <img src="https://img.shields.io/github/stars/amindarijani?label=Stars&style=social" alt="Stars Badge">
+    <img src="https://img.shields.io/github/commits-since/amindarijani/latest/main?label=Commits&logo=github" alt="Commits Badge">
+    <!-- Add more badges with similar structure -->
   </a>
 </div>
+
