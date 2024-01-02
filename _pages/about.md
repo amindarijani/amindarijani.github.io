@@ -25,7 +25,7 @@ Discovering the Blend of Medicine & Technology.
 
 Hello! I'm Amin, an enthusiastic individual engaged in the realm of medical biotechnology. Currently pursuing an MSc in this field, my focus spans cell therapy, tissue engineering, and regenerative medicine, also offering a continuous journey into advanced biomedical sciences.
 
-My background in health, holding a Doctor of Medicine in Dentistry (DMD), drives my passion for merging my medical knowledge with cutting-edge technologies.
+My background in health, holding a Doctorate of Medicine in Dentistry (DMD), drives my passion for merging my medical knowledge with cutting-edge technologies.
 
 **My goal?** Unraveling the intricate workings of cellular and molecular biology to pioneer innovative technological solutions for medicine, dentistry, and comprehensive patient care.
 
