@@ -1,0 +1,157 @@
+- title: Education
+  type: time_table
+  contents:
+    - title: MSc in Medical Biotechnology
+      institution: University of Piemonte Orientale, Department of Health Sciences, Novara, Italy
+      year: 2023 - 2025
+      description:
+        - "Major: Cell Therapy, Tissue Engineering and Regenerative Medicine"
+        - "Dissertation: Cytocompatibility and Antibacterial Evaluation of Copper and Zinc Co-Doped Plasma Electrolytic Oxidation (PEO)-Treated Titanium Surfaces for Dental Implant Abutment: An In vitro Study"
+    - title: Doctorate Degree in Dentistry
+      institution: Kerman University of Medical Sciences, Faculty of Dentistry, Kerman, Iran
+      year: 2015 - 2022
+      description:
+        - "Dissertation: Evaluation of Cleaning Efficacy, Instrumentation Time, and Dentin Removal of Manual and Rotary Instrumentation Techniques in Primary Molars: An In vitro Study"
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Research Fellow, INNOVATION Laboratory (Tissue Engineering & Biomaterials Evaluation)
+      institution: CAAD (Translational Research Centre for Autoimmune and Allergic Diseases), Novara, Italy
+      year: 2025 - Present
+      description:
+        - Contribute to R&D projects and laboratory testing services.
+        - "CeramTec GmbH: Assessed cell viability, adhesion, proliferation and osteogenic potential in response to polyaryletherketone (PAEK) materials. Experimental models: 2D cultures of human bone marrow-derived mesenchymal stem cells (hBM-MSCs) and human osteosarcoma cells (U2OS)."
+        - "Tiss’You srl: Evaluated cellular responses to low-molecular-weight hydrolyzed collagen peptides, assessing regenerative potential, anti-scarring activity, cytoskeletal organization and cellular mechanobiology. Experimental models: 2D cultures of human dermal fibroblasts (hTERT-HDFa) and human keratinocytes (HaCaT); 3D reconstructed human epidermis (RHE)."
+        - "Sanitpharma srl: Analyzed particle size and elemental composition to assess size-based separation performance and potential particle release from processing filters."
+    - title: Research Intern, Regenerative Anatomy Laboratory
+      institution: University of Piemonte Orientale, Novara, Italy
+      year: 2023 - 2025
+      description:
+        - Conducted physicochemical, biological and antibacterial evaluations of titanium dental implant surfaces modified with copper- and zinc-doped PEO coatings.
+        - "Physicochemical: Characterized coating topography, surface elemental composition, wettability and surface energy."
+        - "Biological: Evaluated cytocompatibility, cell morphology, focal adhesions, cytoskeletal organization, inflammatory responses, extracellular collagen deposition and matrix mineralization. Experimental models: 2D cultures of mouse preosteoblasts (MC3T3-E1), normal human dermal fibroblasts (NHDF-Ad), human gingival fibroblasts (HGF-1) and human osteoblasts (HOB)."
+        - "Antibacterial: Assessed antibacterial properties through bacterial metabolic activity, viable counts, membrane integrity and biofilm morphology. Experimental models: sessile cultures of S. epidermidis, S. aureus and A. actinomycetemcomitans."
+    - title: Erasmus+ Research Trainee, Department of Biomaterials
+      institution: University of Oslo, Oslo, Norway
+      year: 2024
+      description:
+        - Investigated multifunctional tannic acid nanocoatings for bone-anchored implant surfaces with reduced infection risk.
+        - "Surface modification: Prepared tannic acid-coated titanium substrates."
+        - "Antibacterial: Investigated the antibacterial activity of UV-inactivated L. crispatus biofilms against S. epidermidis on saliva-conditioned, tannic acid-coated titanium surfaces."
+
+- title: Lab Skills
+  type: list
+  contents:
+    - "Mammalian cell culture: 2D and 3D culture; primary, immortalized, tumor-derived and stem cells."
+    - "Microbiology: Planktonic and sessile cultures, biofilm models and antibacterial testing."
+    - "Cell biology: Assessment of cell viability, metabolic activity, cytotoxicity, adhesion, proliferation, differentiation and maturation."
+    - "Molecular biology: RNA, DNA and protein isolation; gene expression analysis by RT-qPCR."
+    - "Biochemical assays: Immunoassays, enzyme activity assays, metabolic assays and click-chemistry-based assays."
+    - "Staining: Histological, histochemical and immunofluorescence staining."
+    - "Microscopy: Light, fluorescence, confocal and scanning electron microscopy."
+    - "Surface characterization: Optical profilometry, energy-dispersive X-ray spectroscopy (EDS), contact-angle and surface-energy analysis."
+
+- title: Publications
+  type: list
+  contents:
+    - "Canciani E, Pavarini M, Darijani M, Elyasi Z, Moscatelli M, Scalia A, De Giglio E, Tiainen H, Rogala A, Chiesa R, Boccafoschi F. Cu/Zn-doped PEO titanium with waveform-tunable bioactivity for dental implants. Surfaces and Interfaces. 2026;101:111016. https://doi.org/10.1016/j.surfin.2026.111016"
+    - "Kamyabi H, Darijani M, Amanpour S, Yazdi-Feyzabadi V, Fereidooni R, Fardisi S. Oral health-related quality of life among children aged 11-14 years old with and without parental care in south-east of Iran. Pesquisa Brasileira em Odontopediatria e Clínica Integrada. 2023;23:e220103. https://doi.org/10.1590/pboci.2023.069"
+
+- title: Conferences
+  type: list
+  contents:
+    - "Canciani E, Pavarini M, Darijani M, Scalia A, Elyasi Z, Moscatelli M, De Giglio E, Chiesa R, Boccafoschi F. Advancing dental implant technology: Bioactive surface modification for optimized interactions with the oral environment. Co-authored oral presentation at the 34th Annual Conference of the European Society for Biomaterials (ESB 2025), Torino, Italy, September 2025."
+
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Office Assistant, Cochrane Iran Associate Center
+      institution: Cochrane, Part-time, Remote
+      year: 2022 - 2023
+    - title: Dental Image Annotator & Clinical Expert, Advanced Technologies Lab (Zlab)
+      institution: FANAP ICT Co., Part-time, Remote
+      year: 2022 - 2023
+    - title: Dental Intern, Dental Faculty Hospital
+      institution: Kerman University of Medical Sciences, Full-time, Kerman, Iran
+      year: 2021 - 2022
+    - title: Teacher & Educational Consultant
+      institution: Ghalamchi Educational Foundation, Part-time, Kerman, Iran
+      year: 2016 - 2018
+
+- title: Trainings
+  type: time_table
+  contents:
+    - title: Python, Intro to Programming and Machine Learning, Pandas, Intro to AI Ethics, Data Visualization, Intermediate Machine Learning
+      institution: Kaggle
+      year: 2024
+    - title: Data Science Math Skills
+      institution: Duke University
+      year: 2023
+    - title: The Data Scientist’s Toolbox (Data Science R Specialization)
+      institution: Johns Hopkins University
+      year: 2022
+    - title: SPSS 1, 2 & Systematic Review and Meta-Analysis
+      institution: SSRC
+      year: 2021
+    - title: "An Introduction to Meta-Analysis Software: Stata, CMA, RevMan, R"
+      institution: Cochrane Iran
+      year: 2021
+    - title: SPSS Statistical Analysis Software
+      institution: 5th International Congress on BioMedicine
+      year: 2021
+    - title: Cell Culture
+      institution: 5th International Congress on BioMedicine
+      year: 2021
+    - title: Bioinformatics and Data Analysis
+      institution: 5th International Congress on BioMedicine
+      year: 2021
+    - title: Comprehensive Course Rapid Research Education (RRE)
+      institution: Kerman University of Medical Sciences
+      year: 2017
+
+- title: Honors & Awards
+  type: time_table
+  contents:
+    - title: Research fellowship in innovative dental materials
+      institution: University of Piemonte Orientale (UniUPO), Italy
+      year: 2025
+    - title: Erasmus funding
+      institution: European Union and Piemonte Region, Italy
+      year: 2024
+    - title: Full merit-based DSU-EDISU Piemonte scholarship
+      institution: Italy
+      year: 2023
+    - title: State-funded bursary
+      institution: Kerman University of Medical Sciences, Iran
+      year: 2015
+    - title: Ranked in the top 1.5% in the Iranian Universities Entrance Exam (among 500,000 participants)
+      institution: Iran
+      year: 2014
+
+- title: Contributions & Memberships
+  type: time_table
+  contents:
+    - title: Contribution, UPO Anatomy Talents
+      institution: SIMNOVA Simulation & Innovative Teaching Center, Italy
+      year: 2024 & 2025
+    - title: Contribution, Regenerative Medicine Academy
+      institution: NODES Spoke 5 event, Italy
+      year: 2024 & 2025
+    - title: Licensed Member, Medical Council of I.R. Iran (DDS, MC No. D-203558)
+      institution: Iran
+      year: 2022
+    - title: Member, Faculty Student Research Committee
+      institution: Kerman University of Medical Sciences, Iran
+      year: 2021
+    - title: Member, Rezvan Kerman Dental Relief Charity (Community Dentist & Health Provider)
+      institution: Iran
+      year: 2021
+    - title: Member, Faculty Student Union Council
+      institution: Kerman University of Medical Sciences, Iran
+      year: 2016
+
+- title: References
+  type: list
+  contents:
+    - Available on request.
