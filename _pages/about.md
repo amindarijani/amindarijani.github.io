@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Biomedical Researcher · Biomaterials, Tissue Engineering & Regenerative Medicine
+subtitle: Biomedical Researcher · Cell Therapy, Tissue Engineering & Regenerative Medicine
 
 profile:
   align: right
@@ -18,10 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # social icons stay in the top menu only
 ---
 
-I'm a biomedical researcher working on **biomaterials, tissue engineering and regenerative medicine**.
+I'm a biomedical researcher with a clinical background and an MSc in Medical Biotechnology. 
 
-I'm a Research Fellow at the [INNOVATION Laboratory](https://www.theinnovationlab.it/), [Translational Research Centre for Autoimmune and Allergic Diseases (CAAD)](https://ipazia-caad.uniupo.it/) – [University of Piemonte Orientale](https://www.uniupo.it/en) (Novara, Italy), where I evaluate how cells respond to biomaterials and bioactive products. My earlier research, at the University of Piemonte Orientale and the University of Oslo, focused on antibacterial and bioactive coatings for titanium implants.
+I'm a Research Fellow at the [INNOVATION Laboratory](https://www.theinnovationlab.it/), [Translational Research Centre for Autoimmune and Allergic Diseases (CAAD)](https://ipazia-caad.uniupo.it/) – [University of Piemonte Orientale](https://www.uniupo.it/en) (Novara, Italy), where I evaluate how biomaterials interact with cells and tissues, and how these interactions can inform their biomedical applications. 
 
-My clinical background in dentistry informs how I think about biomaterials and helps me connect laboratory research with clinical needs.
-
-I'm open to new research opportunities in biomaterials and regenerative medicine.
+I'm interested in open-source tools that make research more transparent and easier to build on.
