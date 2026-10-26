@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Translational Research Centre for Autoimmune and Allergic Diseases</p>
-    **<p>Novara, Italy</p>**
-    **<p><a href="/assets/pdf/Darijani_CV.pdf" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a></p>**
+    <p>Novara, Italy</p>
+    <p><a href="/assets/pdf/Darijani_CV.pdf" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a></p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
