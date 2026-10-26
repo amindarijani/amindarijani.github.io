@@ -18,7 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # social icons stay in the top menu only
 ---
 
-I'm a biomedical researcher with a clinical background and an MSc in Medical Biotechnology. 
 
 I'm a Research Fellow at the [INNOVATION Laboratory](https://www.theinnovationlab.it/), [Translational Research Centre for Autoimmune and Allergic Diseases (CAAD)](https://ipazia-caad.uniupo.it/) – [University of Piemonte Orientale](https://www.uniupo.it/en) (Novara, Italy), where I evaluate how biomaterials interact with cells and tissues, and how these interactions can inform their biomedical applications. 
 
