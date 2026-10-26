@@ -19,9 +19,7 @@ social: false # social icons stay in the top menu only
 ---
 
 
+I'm a Research Fellow at the [INNOVATION Laboratory](https://www.theinnovationlab.it/), [Translational Research Centre for Autoimmune and Allergic Diseases (CAAD)](https://ipazia-caad.uniupo.it/) – [University of Piemonte Orientale](https://www.uniupo.it/en) (Novara, Italy), where I evaluate cells and tissues respond to biomaterials and bioactive compounds, particularly their potential to support tissue repair and regeneration. I'm also interested in cell therapy and tissue engineering. My experience includes using in vitro models to evaluate biological responses, with work spanning dental, orthopaedic and cosmetic research.
 
 
-
-I'm a Research Fellow at the [INNOVATION Laboratory](https://www.theinnovationlab.it/), [Translational Research Centre for Autoimmune and Allergic Diseases (CAAD)](https://ipazia-caad.uniupo.it/) – [University of Piemonte Orientale](https://www.uniupo.it/en) (Novara, Italy), where I evaluate how biomaterials interact with cells and tissues, and how these interactions can inform their biomedical applications. 
-
-I'm interested in open-source tools that make research more transparent and easier to build on.
+I value transparency, open collaboration and reproducible methods, and I'm interested in how open-source tools and shared knowledge can support these practices.
