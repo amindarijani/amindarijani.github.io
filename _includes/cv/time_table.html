@@ -2,28 +2,20 @@
     {% for content in entry.contents %}
       <li class="list-group-item">
         <div class="row">
-          {% if content.year %}
-            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
-              <table class="table-cv">
-                <tbody>
-                  <tr>
-                    <td>
-                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">{{ content.year }}</span>
-                    </td>
-                  </tr>
-                  {% if content.location %}
-                  <tr>
-                    <td>
-                      <p class="location"><i class="fa-solid fa-location-dot iconlocation"></i> {{ content.location }}</p>
-                    </td>
-                  </tr>
-                  {% endif %}
-                </tbody>
-              </table>
-
+          <div class="col-12 col-md-3 mb-3 mb-md-0">
+            <div style="display:flex;flex-direction:column;align-items:flex-start;gap:0.4rem;">
+              {% if content.year %}
+              <span class="badge font-weight-bold danger-color-dark text-uppercase" style="max-width:100%;white-space:normal;line-height:1.4;">{{ content.year }}</span>
+              {% endif %}
+              {% if content.location %}
+              <span style="display:inline-block;max-width:100%;padding:0.25rem 0.5rem;border:1px solid var(--global-divider-color);border-radius:0.25rem;background:var(--global-card-bg-color);color:var(--global-text-color-light);font-size:0.8rem;line-height:1.4;">{{ content.location }}</span>
+              {% endif %}
+              {% if content.employment_type %}
+              <span style="display:inline-block;max-width:100%;padding:0.25rem 0.5rem;border:1px solid var(--global-divider-color);border-radius:0.25rem;background:var(--global-card-bg-color);color:var(--global-text-color-light);font-size:0.8rem;line-height:1.4;">{{ content.employment_type }}</span>
+              {% endif %}
             </div>
-          {% endif %}
-          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+          </div>
+          <div class="col-12 col-md-9">
             {% if content.title %}
             <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
             {% endif %}
