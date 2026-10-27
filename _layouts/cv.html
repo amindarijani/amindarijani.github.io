@@ -5,14 +5,14 @@ layout: default
 {% unless site.data.resume %}
 <div class="post">
 
-  <header class="post-header" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.75rem;margin-bottom:1.25rem;">
-    <span style="font-size:0.95rem;color:var(--global-text-color-light);">Brief overview</span>
+  <header class="post-header" style="text-align:center;margin-bottom:1.5rem;">
     {% if page.cv_pdf %}
-    <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" download style="display:inline-flex;align-items:center;gap:0.5rem;padding:0.5rem 0.8rem;border:1px solid var(--global-divider-color);border-radius:6px;font-size:0.95rem;line-height:1.5;text-decoration:none;white-space:nowrap;" aria-label="Download full CV as a PDF" title="Download full CV (PDF)">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></svg>
-      Download full CV <span style="color:var(--global-text-color-light);font-size:0.8rem;">PDF</span>
+    <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" download style="display:inline-flex;align-items:center;gap:0.4rem;font-size:1rem;line-height:1.5;text-decoration:none;" aria-label="Download Full CV (PDF)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></svg>
+      Download Full CV
     </a>
     {% endif %}
+    <p style="margin:0.5rem 0 0;font-size:0.9rem;color:var(--global-text-color-light);">Brief overview</p>
   </header>
 
   <article>
@@ -45,14 +45,14 @@ layout: default
 {% else %}
 <div class="post">
 
-  <header class="post-header" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.75rem;margin-bottom:1.25rem;">
-    <span style="font-size:0.95rem;color:var(--global-text-color-light);">Brief overview</span>
+  <header class="post-header" style="text-align:center;margin-bottom:1.5rem;">
     {% if page.cv_pdf %}
-    <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" download style="display:inline-flex;align-items:center;gap:0.5rem;padding:0.5rem 0.8rem;border:1px solid var(--global-divider-color);border-radius:6px;font-size:0.95rem;line-height:1.5;text-decoration:none;white-space:nowrap;" aria-label="Download full CV as a PDF" title="Download full CV (PDF)">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></svg>
-      Download full CV <span style="color:var(--global-text-color-light);font-size:0.8rem;">PDF</span>
+    <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" download style="display:inline-flex;align-items:center;gap:0.4rem;font-size:1rem;line-height:1.5;text-decoration:none;" aria-label="Download Full CV (PDF)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></svg>
+      Download Full CV
     </a>
     {% endif %}
+    <p style="margin:0.5rem 0 0;font-size:0.9rem;color:var(--global-text-color-light);">Brief overview</p>
   </header>
 
   <article>
