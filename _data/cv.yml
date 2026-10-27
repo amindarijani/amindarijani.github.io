@@ -2,27 +2,38 @@
   type: time_table
   contents:
     - title: MSc in Medical Biotechnology
-      institution: University of Piemonte Orientale, Department of Health Sciences, Novara, Italy
+      institution: University of Piemonte Orientale, Department of Health Sciences
       year: 2023 - 2025
       description:
+      Novara, Italy
         - "Major: Cell Therapy, Tissue Engineering and Regenerative Medicine"
     - title: Doctorate Degree in Dentistry
-      institution: Kerman University of Medical Sciences, Faculty of Dentistry, Kerman, Iran
+      institution: Kerman University of Medical Sciences, Faculty of Dentistry
       year: 2015 - 2022
       description:
+      Kerman, Iran
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: Research Fellow, INNOVATION Laboratory (Tissue Engineering & Biomaterials Evaluation)
-      institution: CAAD (Translational Research Centre for Autoimmune and Allergic Diseases), Novara, Italy
+    - title: Research Fellow
+      institution: CAAD (Translational Research Centre for Autoimmune and Allergic Diseases)
       year: 2025 - Present
-    - title: Research Intern, Regenerative Anatomy Laboratory
-      institution: University of Piemonte Orientale, Novara, Italy
+      description:
+      Novara, Italy
+      INNOVATION Laboratory (Tissue Engineering & Biomaterials Evaluation)
+    - title: Research Intern
+      institution: University of Piemonte Orientale
       year: 2024 - 2025
-    - title: Erasmus+ Research Trainee, Department of Biomaterials
-      institution: University of Oslo, Oslo, Norway
+      description:
+      Novara, Italy
+      Regenerative Anatomy Laboratory
+    - title: Erasmus+ Research Trainee
+      institution: University of Oslo
       year: 2024
+      description:
+      Oslo, Norway
+      Department of Biomaterials
 
 - title: Lab Skills
   type: list
@@ -50,17 +61,29 @@
   type: time_table
   contents:
     - title: Office Assistant, Cochrane Iran Associate Center
-      institution: Cochrane, Part-time, Remote
+      institution: Cochrane
       year: 2022 - 2023
+      description:
+      Remote
+      Part-time
     - title: Data Annotator & Clinical Expert
-      institution: FANAP’s Advanced Technologies Lab (ZLab), Contract, Remote
+      institution: FANAP’s Advanced Technologies Lab (ZLab)
       year: 2022 - 2023
+      description:
+      Remote
+      Contract
     - title: Dental Intern, Dental Faculty Hospital
-      institution: Kerman University of Medical Sciences, Full-time, Kerman, Iran
+      institution: Kerman University of Medical Sciences
       year: 2020 - 2022
+      description:
+      Kerman, Iran
+      Full-time
     - title: Teacher & Educational Consultant
-      institution: Ghalamchi Educational Foundation, Contract, Kerman, Iran
+      institution: Ghalamchi Educational Foundation
       year: 2016 - 2018
+      description:
+      Kerman, Iran
+      Contract
 
 - title: Trainings
   type: time_table
