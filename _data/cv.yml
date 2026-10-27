@@ -20,30 +20,30 @@
       institution: CAAD (Translational Research Centre for Autoimmune and Allergic Diseases), Novara, Italy
       year: 2025 - Present
       description:
-        - Contribute to R&D projects and laboratory testing services.
+        - Contribute to research projects and laboratory testing services.
         - "CeramTec GmbH: Assessed cell viability, adhesion, proliferation and osteogenic potential in response to polyaryletherketone (PAEK) materials. Experimental models: 2D cultures of human bone marrow-derived mesenchymal stem cells (hBM-MSCs) and human osteosarcoma cells (U2OS)."
         - "Tiss’You srl: Evaluated cellular responses to low-molecular-weight hydrolyzed collagen peptides, assessing regenerative potential, anti-scarring activity, cytoskeletal organization and cellular mechanobiology. Experimental models: 2D cultures of human dermal fibroblasts (hTERT-HDFa) and human keratinocytes (HaCaT); 3D reconstructed human epidermis (RHE)."
         - "Sanitpharma srl: Analyzed particle size and elemental composition to assess size-based separation performance and potential particle release from processing filters."
     - title: Research Intern, Regenerative Anatomy Laboratory
       institution: University of Piemonte Orientale, Novara, Italy
-      year: 2023 - 2025
+      year: 2024 - 2025
       description:
         - Conducted physicochemical, biological and antibacterial evaluations of titanium dental implant surfaces modified with copper- and zinc-doped PEO coatings.
         - "Physicochemical characterization: coating topography, surface elemental composition, wettability and surface energy."
-        - "Biological evaluation: cytocompatibility, cell morphology, focal adhesions, cytoskeletal organization, inflammatory responses, extracellular collagen deposition and matrix mineralization. Experimental models: 2D cultures of mouse preosteoblasts (MC3T3-E1), normal human dermal fibroblasts (NHDF-Ad), human gingival fibroblasts (HGF-1) and human osteoblasts (HOB)."
+        - "Biological evaluation: cytocompatibility, cell morphology, focal adhesions, cytoskeletal organization, inflammatory responses, extracellular collagen deposition and matrix mineralization. Experimental models: 2D cultures of mouse pre-osteoblasts (MC3T3-E1), normal human dermal fibroblasts (NHDF-Ad), human gingival fibroblasts (HGF-1) and human osteoblasts (HOB)."
         - "Antibacterial evaluation: bacterial metabolic activity, viable counts, membrane integrity and biofilm morphology. Experimental models: sessile cultures of S. epidermidis, S. aureus and A. actinomycetemcomitans."
     - title: Erasmus+ Research Trainee, Department of Biomaterials
       institution: University of Oslo, Oslo, Norway
       year: 2024
       description:
-        - Investigated multifunctional tannic acid nanocoatings for bone-anchored implant surfaces with reduced infection risk.
+        - Investigated multifunctional tannic acid nanocoating for bone-anchored implant surfaces with reduced infection risk.
         - "Surface modification: prepared tannic acid-coated titanium substrates."
         - "Antibacterial evaluation: activity of UV-inactivated L. crispatus biofilms against S. epidermidis on saliva-conditioned, tannic acid-coated titanium surfaces."
 
 - title: Lab Skills
   type: list
   contents:
-    - "Mammalian cell culture: 2D and 3D culture; primary, immortalized, tumor-derived and stem cells."
+    - "Cell culture: 2D and 3D mammalian cell culture; primary, immortalized, tumor-derived and stem cells."
     - "Microbiology: planktonic and sessile cultures, biofilm models and antibacterial testing."
     - "Cell biology: assessment of cell viability, metabolic activity, cytotoxicity, adhesion, proliferation, differentiation and maturation."
     - "Molecular biology: gene expression analysis by RT-qPCR (RNA isolation, cDNA synthesis and qPCR)."
@@ -54,13 +54,13 @@
 - title: Publications
   type: list
   contents:
-    - "Canciani E, Pavarini M, Darijani M, Elyasi Z, Moscatelli M, Scalia A, De Giglio E, Tiainen H, Rogala A, Chiesa R, Boccafoschi F. Cu/Zn-doped PEO titanium with waveform-tunable bioactivity for dental implants. Surfaces and Interfaces. 2026;101:111016. https://doi.org/10.1016/j.surfin.2026.111016"
-    - "Kamyabi H, Darijani M, Amanpour S, Yazdi-Feyzabadi V, Fereidooni R, Fardisi S. Oral health-related quality of life among children aged 11-14 years old with and without parental care in south-east of Iran. Pesquisa Brasileira em Odontopediatria e Clínica Integrada. 2023;23:e220103. https://doi.org/10.1590/pboci.2023.069"
+    - "Cu/Zn-doped PEO titanium with waveform-tunable bioactivity for dental implants. E Canciani, M Pavarini, M Darijani, Z Elyasi, M Moscatelli, A Scalia, E De Giglio, H Tiainen, A Rogala, R Chiesa, F Boccafoschi. Surfaces and Interfaces. 2026;101:111016. https://doi.org/10.1016/j.surfin.2026.111016"
+    - "Oral health-related quality of life among children aged 11-14 years old with and without parental care in south-east of Iran. H Kamyabi, M Darijani, S Amanpour, V Yazdi-Feyzabadi, R Fereidooni, S Fardisi. Pesquisa Brasileira em Odontopediatria e Clínica Integrada. 2023;23:e220103. https://doi.org/10.1590/pboci.2023.069"
 
 - title: Conferences
   type: list
   contents:
-    - "Canciani E, Pavarini M, Darijani M, Scalia A, Elyasi Z, Moscatelli M, De Giglio E, Chiesa R, Boccafoschi F. Advancing dental implant technology: Bioactive surface modification for optimized interactions with the oral environment. Co-authored oral presentation at the 34th Annual Conference of the European Society for Biomaterials (ESB 2025), Torino, Italy, September 2025."
+    - "Advancing dental implant technology: Bioactive surface modification for optimized interactions with the oral environment. E Canciani, M Pavarini, M Darijani, A Scalia, Z Elyasi, M Moscatelli, E De Giglio, R Chiesa, F Boccafoschi. Co-authored oral presentation at the 34th Annual Conference of the European Society for Biomaterials (ESB 2025), Torino, Italy, September 2025."
 
 - title: Professional Experience
   type: time_table
@@ -68,14 +68,14 @@
     - title: Office Assistant, Cochrane Iran Associate Center
       institution: Cochrane, Part-time, Remote
       year: 2022 - 2023
-    - title: Data Annotator & Clinical Expert, Advanced Technologies Lab (Zlab)
-      institution: FANAP's Advanced Technologies Lab (Zlab), Part-time, Remote
+    - title: Data Annotator & Clinical Expert
+      institution: FANAP’s Advanced Technologies Lab (ZLab), Contract, Remote
       year: 2022 - 2023
     - title: Dental Intern, Dental Faculty Hospital
       institution: Kerman University of Medical Sciences, Full-time, Kerman, Iran
       year: 2020 - 2022
     - title: Teacher & Educational Consultant
-      institution: Ghalamchi Educational Foundation, Part-time, Kerman, Iran
+      institution: Ghalamchi Educational Foundation, Contract, Kerman, Iran
       year: 2016 - 2018
 
 - title: Trainings
@@ -124,9 +124,6 @@
     - title: State-funded bursary
       institution: Kerman University of Medical Sciences, Iran
       year: 2015
-    - title: Ranked in the top 1.5% in the Iranian Universities Entrance Exam (among 500,000 participants)
-      institution: Iran
-      year: 2014
 
 - title: Contributions & Memberships
   type: time_table
@@ -153,4 +150,4 @@
 - title: References
   type: list
   contents:
-    - Available on request.
+    - Available upon request.
