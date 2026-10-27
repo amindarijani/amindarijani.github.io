@@ -19,26 +19,12 @@
     - title: Research Fellow, INNOVATION Laboratory (Tissue Engineering & Biomaterials Evaluation)
       institution: CAAD (Translational Research Centre for Autoimmune and Allergic Diseases), Novara, Italy
       year: 2025 - Present
-      description:
-        - Contribute to research projects and laboratory testing services.
-        - "CeramTec GmbH: Assessed cell viability, adhesion, proliferation and osteogenic potential in response to polyaryletherketone (PAEK) materials. Experimental models: 2D cultures of human bone marrow-derived mesenchymal stem cells (hBM-MSCs) and human osteosarcoma cells (U2OS)."
-        - "Tiss’You srl: Evaluated cellular responses to low-molecular-weight hydrolyzed collagen peptides, assessing regenerative potential, anti-scarring activity, cytoskeletal organization and cellular mechanobiology. Experimental models: 2D cultures of human dermal fibroblasts (hTERT-HDFa) and human keratinocytes (HaCaT); 3D reconstructed human epidermis (RHE)."
-        - "Sanitpharma srl: Analyzed particle size and elemental composition to assess size-based separation performance and potential particle release from processing filters."
     - title: Research Intern, Regenerative Anatomy Laboratory
       institution: University of Piemonte Orientale, Novara, Italy
       year: 2024 - 2025
-      description:
-        - Conducted physicochemical, biological and antibacterial evaluations of titanium dental implant surfaces modified with copper- and zinc-doped PEO coatings.
-        - "Physicochemical characterization: coating topography, surface elemental composition, wettability and surface energy."
-        - "Biological evaluation: cytocompatibility, cell morphology, focal adhesions, cytoskeletal organization, inflammatory responses, extracellular collagen deposition and matrix mineralization. Experimental models: 2D cultures of mouse pre-osteoblasts (MC3T3-E1), normal human dermal fibroblasts (NHDF-Ad), human gingival fibroblasts (HGF-1) and human osteoblasts (HOB)."
-        - "Antibacterial evaluation: bacterial metabolic activity, viable counts, membrane integrity and biofilm morphology. Experimental models: sessile cultures of S. epidermidis, S. aureus and A. actinomycetemcomitans."
     - title: Erasmus+ Research Trainee, Department of Biomaterials
       institution: University of Oslo, Oslo, Norway
       year: 2024
-      description:
-        - Investigated multifunctional tannic acid nanocoating for bone-anchored implant surfaces with reduced infection risk.
-        - "Surface modification: prepared tannic acid-coated titanium substrates."
-        - "Antibacterial evaluation: activity of UV-inactivated L. crispatus biofilms against S. epidermidis on saliva-conditioned, tannic acid-coated titanium surfaces."
 
 - title: Lab Skills
   type: list
@@ -54,13 +40,13 @@
 - title: Publications
   type: list
   contents:
-    - "Cu/Zn-doped PEO titanium with waveform-tunable bioactivity for dental implants. E Canciani, M Pavarini, M Darijani, Z Elyasi, M Moscatelli, A Scalia, E De Giglio, H Tiainen, A Rogala, R Chiesa, F Boccafoschi. Surfaces and Interfaces. 2026;101:111016. https://doi.org/10.1016/j.surfin.2026.111016"
-    - "Oral health-related quality of life among children aged 11-14 years old with and without parental care in south-east of Iran. H Kamyabi, M Darijani, S Amanpour, V Yazdi-Feyzabadi, R Fereidooni, S Fardisi. Pesquisa Brasileira em Odontopediatria e Clínica Integrada. 2023;23:e220103. https://doi.org/10.1590/pboci.2023.069"
+    - '<strong>Cu/Zn-doped PEO titanium with waveform-tunable bioactivity for dental implants.</strong> <em>Surfaces and Interfaces.</em> <a href="https://doi.org/10.1016/j.surfin.2026.111016" target="_blank" rel="noopener noreferrer">doi:10.1016/j.surfin.2026.111016</a>'
+    - '<strong>Oral health-related quality of life among children aged 11-14 years old with and without parental care in south-east of Iran.</strong> <em>Pesquisa Brasileira em Odontopediatria e Clínica Integrada.</em> <a href="https://doi.org/10.1590/pboci.2023.069" target="_blank" rel="noopener noreferrer">doi:10.1590/pboci.2023.069</a>'
 
 - title: Conferences
   type: list
   contents:
-    - "Advancing dental implant technology: Bioactive surface modification for optimized interactions with the oral environment. E Canciani, M Pavarini, M Darijani, A Scalia, Z Elyasi, M Moscatelli, E De Giglio, R Chiesa, F Boccafoschi. Co-authored oral presentation at the 34th Annual Conference of the European Society for Biomaterials (ESB 2025), Torino, Italy, September 2025."
+    - '<strong>Advancing dental implant technology: Bioactive surface modification for optimized interactions with the oral environment.</strong> 34th Annual Conference of the European Society for Biomaterials (ESB 2025).'
 
 - title: Professional Experience
   type: time_table
