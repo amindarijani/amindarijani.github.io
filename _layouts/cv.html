@@ -5,18 +5,18 @@ layout: default
 {% unless site.data.resume %}
 <div class="post">
 
-  <header class="post-header" style="text-align:center;margin-bottom:1.5rem;">
+  <header class="post-header" style="text-align:center;margin-bottom:2.5rem;">
     {% if page.cv_pdf %}
     <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" download style="display:inline-flex;align-items:center;gap:0.4rem;font-size:1rem;line-height:1.5;text-decoration:none;" aria-label="Download Full CV (PDF)">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></svg>
       Download Full CV
     </a>
     {% endif %}
-    <p style="margin:0.5rem 0 0;font-size:0.9rem;color:var(--global-text-color-light);">Brief overview</p>
   </header>
 
   <article>
     <div class="cv">
+      <h2 style="font-size:1.75rem;font-weight:300;line-height:1.2;margin:0 0 1rem;padding:1.25rem 1rem 0;border-top:1px solid var(--global-divider-color);">Brief overview</h2>
       {% for entry in site.data.cv %}
         <a class="anchor" id="{{ entry.title }}"></a>
         <div class="card mt-3 p-3">
@@ -45,18 +45,18 @@ layout: default
 {% else %}
 <div class="post">
 
-  <header class="post-header" style="text-align:center;margin-bottom:1.5rem;">
+  <header class="post-header" style="text-align:center;margin-bottom:2.5rem;">
     {% if page.cv_pdf %}
     <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" download style="display:inline-flex;align-items:center;gap:0.4rem;font-size:1rem;line-height:1.5;text-decoration:none;" aria-label="Download Full CV (PDF)">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></svg>
       Download Full CV
     </a>
     {% endif %}
-    <p style="margin:0.5rem 0 0;font-size:0.9rem;color:var(--global-text-color-light);">Brief overview</p>
   </header>
 
   <article>
     <div class="cv">
+      <h2 style="font-size:1.75rem;font-weight:300;line-height:1.2;margin:0 0 1rem;padding:1.25rem 1rem 0;border-top:1px solid var(--global-divider-color);">Brief overview</h2>
       {% for data in site.data.resume %}
         {% if site.jsonresume and site.jsonresume.size > 0 %}
           {% unless site.jsonresume contains data[0] %}
