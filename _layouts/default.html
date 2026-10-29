@@ -12,16 +12,14 @@
 
     {% if page.layout == "about" %}
       <style>
-        /* One centered layout: portrait/menu left, content right. */
-        .container.cv-page-container {
-          width: 100%;
-          max-width: 1140px !important;
-        }
-
+        /*
+         * Use the theme's original .container width.
+         * This matches the top navigation's container.
+         */
         .cv-page-container .cv-page-row {
           display: grid;
-          grid-template-columns: 170px minmax(0, 1fr);
-          gap: 40px;
+          grid-template-columns: 130px minmax(0, 1fr);
+          gap: 28px;
           align-items: start;
         }
 
@@ -36,11 +34,13 @@
 
         .cv-page-portrait {
           width: 120px;
-          margin: 0 0 1.5rem;
+          margin: 0 0 1.25rem;
+          padding: 0;
         }
 
         .cv-page-portrait figure {
           margin: 0;
+          padding: 0;
         }
 
         .cv-page-portrait img {
@@ -48,15 +48,32 @@
           width: 100%;
           max-width: 100%;
           height: auto;
+          margin: 0;
         }
 
+        /* Align menu text with the photo's left edge. */
         .cv-page-sidebar #toc-sidebar {
           position: static !important;
+          width: 100%;
+          margin: 0;
+          padding: 0;
+        }
+
+        .cv-page-sidebar #toc-sidebar ul {
+          margin-left: 0;
+          padding-left: 0;
+          list-style: none;
+        }
+
+        .cv-page-sidebar #toc-sidebar .nav-link {
+          margin-left: 0;
+          padding-left: 0 !important;
+          border-left: 0 !important;
         }
 
         .cv-page-main {
-          min-width: 0;
           width: 100%;
+          min-width: 0;
         }
 
         @media (max-width: 767.98px) {
