@@ -12,10 +12,7 @@
 
     {% if page.layout == "about" %}
       <style>
-        /*
-         * Use the theme's original .container width.
-         * This matches the top navigation's container.
-         */
+        /* Preserve the theme's original container width. */
         .cv-page-container .cv-page-row {
           display: grid;
           grid-template-columns: 130px minmax(0, 1fr);
@@ -23,13 +20,17 @@
           align-items: start;
         }
 
+        /* Stretch the sidebar along the full CV height. */
         .cv-page-sidebar {
           min-width: 0;
+          align-self: stretch;
         }
 
         .cv-page-sidebar-inner {
           position: sticky;
           top: 80px;
+          max-height: calc(100vh - 140px);
+          overflow-y: auto;
         }
 
         .cv-page-portrait {
@@ -51,7 +52,6 @@
           margin: 0;
         }
 
-        /* Align menu text with the photo's left edge. */
         .cv-page-sidebar #toc-sidebar {
           position: static !important;
           width: 100%;
@@ -76,6 +76,36 @@
           min-width: 0;
         }
 
+        /* Floating button, visible only after scrolling. */
+        #cv-back-to-top {
+          position: fixed;
+          right: 24px;
+          bottom: 70px;
+          z-index: 1035;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          gap: 6px;
+          padding: 10px 14px;
+          border: 1px solid var(--global-theme-color);
+          border-radius: 8px;
+          background: var(--global-bg-color);
+          color: var(--global-theme-color);
+          font: inherit;
+          font-size: 0.9rem;
+          cursor: pointer;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        #cv-back-to-top[hidden] {
+          display: none !important;
+        }
+
+        #cv-back-to-top:focus-visible {
+          outline: 2px solid var(--global-theme-color);
+          outline-offset: 3px;
+        }
+
         @media (max-width: 767.98px) {
           .cv-page-container .cv-page-row {
             grid-template-columns: minmax(0, 1fr);
@@ -84,6 +114,8 @@
 
           .cv-page-sidebar-inner {
             position: static;
+            max-height: none;
+            overflow: visible;
           }
 
           .cv-page-portrait {
@@ -93,6 +125,10 @@
 
           .cv-page-sidebar #toc-sidebar {
             display: none;
+          }
+
+          #cv-back-to-top {
+            right: 16px;
           }
         }
       </style>
@@ -126,7 +162,10 @@
                 </div>
               {% endif %}
 
-              <nav id="toc-sidebar"></nav>
+              <nav
+                id="toc-sidebar"
+                aria-label="CV sections"
+              ></nav>
             </div>
           </aside>
 
@@ -172,5 +211,52 @@
     {% include scripts/analytics.html %}
     {% include scripts/progressBar.html %}
     {% include scripts/wechatModal.html %}
+
+    {% if page.layout == "about" %}
+      <button
+        id="cv-back-to-top"
+        type="button"
+        aria-label="Back to top of page"
+        hidden
+      >
+        <span aria-hidden="true">↑</span>
+        Top
+      </button>
+
+      <script>
+        (function () {
+          var button = document.getElementById("cv-back-to-top");
+          var title = document.querySelector(
+            ".cv-page-main .post-title"
+          );
+
+          function updateButton() {
+            button.hidden = window.scrollY < 400;
+          }
+
+          button.addEventListener("click", function () {
+            var reduceMotion = window.matchMedia(
+              "(prefers-reduced-motion: reduce)"
+            ).matches;
+
+            if (title) {
+              title.setAttribute("tabindex", "-1");
+              title.focus({ preventScroll: true });
+            }
+
+            window.scrollTo({
+              top: 0,
+              behavior: reduceMotion ? "instant" : "smooth"
+            });
+          });
+
+          window.addEventListener("scroll", updateButton, {
+            passive: true
+          });
+
+          updateButton();
+        })();
+      </script>
+    {% endif %}
   </body>
 </html>
