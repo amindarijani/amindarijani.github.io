@@ -20,7 +20,7 @@
           align-items: start;
         }
 
-        /* Stretch the sidebar along the full CV height. */
+        /* Allow the sticky sidebar to follow the full CV height. */
         .cv-page-sidebar {
           min-width: 0;
           align-self: stretch;
@@ -52,6 +52,7 @@
           margin: 0;
         }
 
+        /* Align menu text with the photo's left edge. */
         .cv-page-sidebar #toc-sidebar {
           position: static !important;
           width: 100%;
@@ -76,7 +77,7 @@
           min-width: 0;
         }
 
-        /* Floating button, visible only after scrolling. */
+        /* Circular, icon-only back-to-top button. */
         #cv-back-to-top {
           position: fixed;
           right: 24px;
@@ -85,16 +86,21 @@
           display: inline-flex;
           align-items: center;
           justify-content: center;
-          gap: 6px;
-          padding: 10px 14px;
+          width: 44px;
+          height: 44px;
+          padding: 0;
           border: 1px solid var(--global-theme-color);
-          border-radius: 8px;
+          border-radius: 50%;
           background: var(--global-bg-color);
           color: var(--global-theme-color);
-          font: inherit;
-          font-size: 0.9rem;
           cursor: pointer;
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        #cv-back-to-top svg {
+          display: block;
+          width: 22px;
+          height: 22px;
         }
 
         #cv-back-to-top[hidden] {
@@ -217,10 +223,22 @@
         id="cv-back-to-top"
         type="button"
         aria-label="Back to top of page"
+        title="Back to top"
         hidden
       >
-        <span aria-hidden="true">↑</span>
-        Top
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <path d="M12 19V5"></path>
+          <path d="m5 12 7-7 7 7"></path>
+        </svg>
       </button>
 
       <script>
