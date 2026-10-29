@@ -9,11 +9,6 @@ layout: default
     min-width: 0;
   }
 
-  .post.cv-main-page > .post-header {
-    padding: 0;
-    margin-bottom: 1.5rem;
-  }
-
   .post.cv-main-page > article {
     display: block !important;
     width: 100%;
@@ -31,7 +26,7 @@ layout: default
   }
 
   .cv-main-page #cv {
-    padding-top: 1rem;
+    padding-top: 0;
   }
 
   .cv-main-page .cv > .card {
@@ -46,59 +41,7 @@ layout: default
 </style>
 
 <div class="post cv-main-page">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == "blank" %}
-        <span class="font-weight-bold">{{ site.first_name }}</span>
-        {{ site.middle_name }} {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
   <article>
     {{ content }}
-
-    {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit;">
-          news
-        </a>
-      </h2>
-      {% include news.html limit=true %}
-    {% endif %}
-
-    {% if page.latest_posts %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit;">
-          latest posts
-        </a>
-      </h2>
-      {% include latest_posts.html %}
-    {% endif %}
-
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit;">
-          selected publications
-        </a>
-      </h2>
-      {% include selected_papers.html %}
-    {% endif %}
-
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">
-          {% include social.html %}
-        </div>
-
-        <div class="contact-note">
-          {{ site.contact_note }}
-        </div>
-      </div>
-    {% endif %}
   </article>
 </div>
