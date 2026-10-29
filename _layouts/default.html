@@ -1,55 +1,151 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
-
-  <!-- Head -->
   <head>
-  {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
-  {%- endif -%}
-  {% include head.html %}
+    {% if page.redirect %}
+      <meta
+        http-equiv="refresh"
+        content="3; url={{ site.baseurl }}/"
+      >
+    {% endif %}
+
+    {% include head.html %}
+
+    {% if page.layout == "about" %}
+      <style>
+        /* One centered layout: portrait/menu left, content right. */
+        .container.cv-page-container {
+          width: 100%;
+          max-width: 1140px !important;
+        }
+
+        .cv-page-container .cv-page-row {
+          display: grid;
+          grid-template-columns: 170px minmax(0, 1fr);
+          gap: 40px;
+          align-items: start;
+        }
+
+        .cv-page-sidebar {
+          min-width: 0;
+        }
+
+        .cv-page-sidebar-inner {
+          position: sticky;
+          top: 80px;
+        }
+
+        .cv-page-portrait {
+          width: 120px;
+          margin: 0 0 1.5rem;
+        }
+
+        .cv-page-portrait figure {
+          margin: 0;
+        }
+
+        .cv-page-portrait img {
+          display: block;
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+
+        .cv-page-sidebar #toc-sidebar {
+          position: static !important;
+        }
+
+        .cv-page-main {
+          min-width: 0;
+          width: 100%;
+        }
+
+        @media (max-width: 767.98px) {
+          .cv-page-container .cv-page-row {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 24px;
+          }
+
+          .cv-page-sidebar-inner {
+            position: static;
+          }
+
+          .cv-page-portrait {
+            width: 100px;
+            margin-bottom: 0;
+          }
+
+          .cv-page-sidebar #toc-sidebar {
+            display: none;
+          }
+        }
+      </style>
+    {% endif %}
   </head>
 
-  <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+    {% include header.html %}
 
-    <!-- Header -->
-    {%- include header.html %}
+    <div class="container mt-5 {% if page.layout == 'about' %}cv-page-container{% endif %}">
+      {% if page.layout == "about" %}
+        <div class="cv-page-row">
+          <aside class="cv-page-sidebar">
+            <div class="cv-page-sidebar-inner">
+              {% if page.profile.image %}
+                <div class="cv-page-portrait">
+                  {% assign portrait_path = page.profile.image | prepend: 'assets/img/' %}
 
-    <!-- Content -->
-    <div class="container mt-5">
-      {% if page.toc and page.toc.sidebar %}
-        {% if page.toc.sidebar == "right" %}
-        <div class="row">
-          <!-- main content area -->
-          <div class="col-sm-9">
+                  {% if page.profile.image_circular %}
+                    {% assign portrait_class = "img-fluid z-depth-1 rounded-circle" %}
+                  {% else %}
+                    {% assign portrait_class = "img-fluid z-depth-1 rounded" %}
+                  {% endif %}
+
+                  {% include figure.html
+                    path=portrait_path
+                    class=portrait_class
+                    alt=page.profile.image
+                    cache_bust=true
+                  %}
+                </div>
+              {% endif %}
+
+              <nav id="toc-sidebar"></nav>
+            </div>
+          </aside>
+
+          <main class="cv-page-main">
             {{ content }}
-          </div>
-          <!-- sidebar, which will move to the top on a small screen -->
-          <div class="col-sm-3">
-            <nav id="toc-sidebar" class="sticky-top"></nav>
-          </div>
+          </main>
         </div>
-        {% else %}
+
+      {% elsif page.toc and page.toc.sidebar %}
         <div class="row">
-          <!-- sidebar, which will move to the top on a small screen -->
-          <div class="col-sm-3">
-            <nav id="toc-sidebar" class="sticky-top"></nav>
-          </div>
-          <!-- main content area -->
-          <div class="col-sm-9">
-            {{ content }}
-          </div>
+          {% if page.toc.sidebar == "right" %}
+            <div class="col-sm-9">
+              {{ content }}
+            </div>
+
+            <div class="col-sm-3">
+              <nav id="toc-sidebar" class="sticky-top"></nav>
+            </div>
+          {% else %}
+            <div class="col-sm-3">
+              <nav id="toc-sidebar" class="sticky-top"></nav>
+            </div>
+
+            <div class="col-sm-9">
+              {{ content }}
+            </div>
+          {% endif %}
         </div>
-        {% endif %}
+
       {% else %}
         {{ content }}
       {% endif %}
     </div>
 
-    <!-- Footer -->
-    {%- include footer.html %}
+    {% include footer.html %}
 
-    <!-- JavaScripts -->
     {% include scripts/jquery.html %}
     {% include scripts/bootstrap.html %}
     {% include scripts/masonry.html %}
