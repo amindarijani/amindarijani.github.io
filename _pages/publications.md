@@ -1,8 +1,6 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: My publications, newest first. You can also find them on <a href="https://scholar.google.com/citations?user=tP3PfUAAAAAJ&hl=en">Google Scholar</a> and <a href="https://www.researchgate.net/profile/Mohammadamin-Darijani/research">ResearchGate</a>.
 nav: true
 nav_order: 2
 ---
