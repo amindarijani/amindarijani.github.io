@@ -1135,3 +1135,26 @@ nav[data-toggle="toc"] {
 .profile .more-info a {
   white-space: nowrap;
 }
+/* Balance the portrait with the shorter biography */
+.profile {
+  width: 150px;
+}
+
+.profile img {
+  width: 100%;
+  height: auto;
+}
+
+.profile .more-info {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media (max-width: 575.98px) {
+  .profile,
+  .profile.float-right,
+  .profile.float-left {
+    width: 150px;
+    margin: 0 auto 1.5rem;
+  }
+}
