@@ -1,15 +1,14 @@
 ---
 layout: about
-title: about
+title: cv
 permalink: /
 subtitle: Biomedical Researcher
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>Novara, Italy</p>
-    <p><a href="/assets/pdf/Darijani_CV.pdf">Curriculum Vitae</a></p>
+toc:
+  sidebar: left
 news: false
 latest_posts: false
 selected_papers: false
