@@ -55,30 +55,6 @@
       year: 2020-2022
       location: Kerman, Iran
       employment_type: Full-time
-- title: Trainings
-  type: time_table
-  contents:
-    - title: Python, Intro to Programming and Machine Learning, Pandas, Intro to AI Ethics, Data Visualization, Intermediate Machine Learning
-      institution: Kaggle
-      year: '2024'
-    - title: Data Science Math Skills
-      institution: Duke University
-      year: '2023'
-    - title: The Data Scientist’s Toolbox (Data Science R Specialization)
-      institution: Johns Hopkins University
-      year: '2022'
-    - title: SPSS 1, 2 & Systematic Review and Meta-Analysis
-      institution: Tehran University of Medical Sciences
-      year: '2021'
-    - title: 'An Introduction to Meta-Analysis Software: Stata, CMA, RevMan, R'
-      institution: Cochrane Iran
-      year: '2021'
-    - title: SPSS Statistical Analysis Software; Bioinformatics and Data Analysis; Cell Culture
-      institution: ICB BioMedicine Conference
-      year: '2021'
-    - title: Comprehensive Course Rapid Research Education (RRE)
-      institution: Kerman University of Medical Sciences
-      year: '2017'
 - title: Honors & Awards
   type: time_table
   contents:
@@ -109,6 +85,30 @@
     - title: Member, Faculty Student Research Committee & Union Council
       institution: Kerman University of Medical Sciences, Iran
       year: 2016 & 2021
+- title: Trainings
+  type: time_table
+  contents:
+    - title: Python, Intro to Programming and Machine Learning, Pandas, Intro to AI Ethics, Data Visualization, Intermediate Machine Learning
+      institution: Kaggle
+      year: '2024'
+    - title: Data Science Math Skills
+      institution: Duke University
+      year: '2023'
+    - title: The Data Scientist’s Toolbox (Data Science R Specialization)
+      institution: Johns Hopkins University
+      year: '2022'
+    - title: SPSS 1, 2 & Systematic Review and Meta-Analysis
+      institution: Tehran University of Medical Sciences
+      year: '2021'
+    - title: 'An Introduction to Meta-Analysis Software: Stata, CMA, RevMan, R'
+      institution: Cochrane Iran
+      year: '2021'
+    - title: SPSS Statistical Analysis Software; Bioinformatics and Data Analysis; Cell Culture
+      institution: ICB BioMedicine Conference
+      year: '2021'
+    - title: Comprehensive Course Rapid Research Education (RRE)
+      institution: Kerman University of Medical Sciences
+      year: '2017'
 - title: References
   type: list
   contents:
