@@ -1,39 +1,73 @@
----
-layout: default
----
-
 <style>
-  .about-cv-page > article > .about-cv-profile {
-    float: left !important;
-    width: 120px !important;
-    max-width: 100%;
-    margin: 0 1.5rem 1rem 0 !important;
+  /* Widen this page, including its left navigation column. */
+  .container:has(.about-cv-page) {
+    width: calc(100% - 3rem);
+    max-width: 1200px !important;
   }
 
-  .about-cv-page .about-cv-profile figure {
+  .about-cv-page {
+    position: relative;
+    width: 100%;
+    min-width: 0;
+  }
+
+  /* Keep the photo at the top right without narrowing the CV. */
+  .about-cv-page > article > .profile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: none !important;
+    width: 120px !important;
+    margin: 0 !important;
+  }
+
+  .about-cv-page > article > .profile figure {
     margin: 0;
   }
 
-  .about-cv-page .about-cv-profile img {
+  .about-cv-page > article > .profile img {
     display: block;
     width: 100%;
     height: auto !important;
   }
 
-  .about-cv-page .about-cv-content {
+  /* Reserve room for the photo beside the name and bio only. */
+  .about-cv-page > .post-header {
+    padding-right: 150px;
+  }
+
+  .about-cv-page .about-cv-content,
+  .about-cv-page > article > .clearfix {
     display: block;
-  }
-
-  .about-cv-page .about-cv-content::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .about-cv-page .merged-cv {
-    clear: both;
     width: 100%;
-    padding-top: 1rem;
+    max-width: none;
+    float: none;
+    overflow: visible;
+  }
+
+  .about-cv-page .about-cv-content > p,
+  .about-cv-page > article > .clearfix > p {
+    padding-right: 150px;
+  }
+
+  /* CV cards extend to the photo's right edge. */
+  .about-cv-page #cv,
+  .about-cv-page .merged-cv,
+  .about-cv-page .cv {
+    clear: both;
+    width: 100% !important;
+    max-width: none !important;
+    box-sizing: border-box;
+  }
+
+  .about-cv-page #cv {
+    padding-top: 1.5rem;
+  }
+
+  .about-cv-page .cv > .card {
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
   }
 
   .about-cv-page .merged-cv-section {
@@ -42,89 +76,22 @@ layout: default
   }
 
   @media (max-width: 575.98px) {
-    .about-cv-page > article > .about-cv-profile {
-      width: 100px !important;
-      margin-right: 1rem !important;
+    .container:has(.about-cv-page) {
+      width: 100%;
+    }
+
+    .about-cv-page > article > .profile {
+      width: 90px !important;
+    }
+
+    .about-cv-page > .post-header {
+      padding-right: 110px;
+      min-height: 125px;
+    }
+
+    .about-cv-page .about-cv-content > p,
+    .about-cv-page > article > .clearfix > p {
+      padding-right: 0;
     }
   }
 </style>
-
-<div class="post about-cv-page">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == "blank" %}
-        <span class="font-weight-bold">{{ site.first_name }}</span>
-        {{ site.middle_name }} {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
-  <article>
-    {% if page.profile %}
-      <div class="profile about-cv-profile">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = "img-fluid z-depth-1 rounded-circle" %}
-          {% else %}
-            {% assign profile_image_class = "img-fluid z-depth-1 rounded" %}
-          {% endif %}
-
-          {% include figure.html
-            path=profile_image_path
-            class=profile_image_class
-            alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-      </div>
-    {% endif %}
-
-    <div class="about-cv-content">
-      {{ content }}
-    </div>
-
-    {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit;">
-          news
-        </a>
-      </h2>
-      {% include news.html limit=true %}
-    {% endif %}
-
-    {% if page.latest_posts %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit;">
-          latest posts
-        </a>
-      </h2>
-      {% include latest_posts.html %}
-    {% endif %}
-
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit;">
-          selected publications
-        </a>
-      </h2>
-      {% include selected_papers.html %}
-    {% endif %}
-
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">
-          {% include social.html %}
-        </div>
-        <div class="contact-note">
-          {{ site.contact_note }}
-        </div>
-      </div>
-    {% endif %}
-  </article>
-</div>
