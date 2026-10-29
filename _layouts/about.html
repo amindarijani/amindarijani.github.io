@@ -3,59 +3,73 @@ layout: default
 ---
 
 <style>
-  /* Give the page and its left sidebar more room. */
+  /* Wide page containing the sidebar and main content. */
   .container:has(.about-cv-page) {
     width: calc(100% - 3rem);
     max-width: 1200px !important;
   }
 
-  .about-cv-page {
+  /* Override the existing About-page grid in _base.scss. */
+  .post.about-cv-page {
+    display: block !important;
     position: relative;
     width: 100%;
     min-width: 0;
   }
 
-  /* Small photo at the top right. */
-  .about-cv-page > article > .profile {
+  .post.about-cv-page > article {
+    display: block !important;
+    width: 100%;
+    min-width: 0;
+  }
+
+  /* Name and subtitle stay to the left of the photo. */
+  .post.about-cv-page > .post-header {
+    display: block;
+    padding-right: 150px;
+    margin-bottom: 2rem;
+  }
+
+  /* Small portrait aligned with the top-right content edge. */
+  .post.about-cv-page > article > .profile {
     position: absolute;
     top: 0;
     right: 0;
     float: none !important;
     width: 120px !important;
+    max-width: 120px;
     margin: 0 !important;
   }
 
-  .about-cv-page > article > .profile figure {
+  .about-cv-page .profile figure {
     margin: 0;
   }
 
-  .about-cv-page > article > .profile img {
+  .about-cv-page .profile img {
     display: block;
     width: 100%;
+    max-width: 100%;
     height: auto !important;
   }
 
-  /* Keep the name and introduction clear of the photo. */
-  .about-cv-page > .post-header {
-    padding-right: 150px;
-  }
-
-  .about-cv-page .about-cv-content {
-    display: block;
-    width: 100%;
-    max-width: none;
-    float: none;
-    overflow: visible;
+  /* Biography and CV use the whole main content column. */
+  .post.about-cv-page .about-cv-content {
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0;
+    margin: 0;
   }
 
   .about-cv-page .about-cv-content > p {
     padding-right: 150px;
   }
 
-  /* Full-width CV below the introduction. */
   .about-cv-page #cv,
   .about-cv-page .merged-cv,
   .about-cv-page .cv {
+    display: block;
     clear: both;
     width: 100% !important;
     max-width: none !important;
@@ -82,13 +96,15 @@ layout: default
       width: 100%;
     }
 
-    .about-cv-page > article > .profile {
+    .post.about-cv-page > article > .profile {
       width: 90px !important;
+      max-width: 90px;
     }
 
-    .about-cv-page > .post-header {
+    .post.about-cv-page > .post-header {
       padding-right: 110px;
       min-height: 125px;
+      margin-bottom: 1rem;
     }
 
     .about-cv-page .about-cv-content > p {
@@ -112,24 +128,22 @@ layout: default
   </header>
 
   <article>
-    {% if page.profile %}
+    {% if page.profile and page.profile.image %}
       <div class="profile">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
 
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = "img-fluid z-depth-1 rounded-circle" %}
-          {% else %}
-            {% assign profile_image_class = "img-fluid z-depth-1 rounded" %}
-          {% endif %}
-
-          {% include figure.html
-            path=profile_image_path
-            class=profile_image_class
-            alt=page.profile.image
-            cache_bust=true
-          %}
+        {% if page.profile.image_circular %}
+          {% assign profile_image_class = "img-fluid z-depth-1 rounded-circle" %}
+        {% else %}
+          {% assign profile_image_class = "img-fluid z-depth-1 rounded" %}
         {% endif %}
+
+        {% include figure.html
+          path=profile_image_path
+          class=profile_image_class
+          alt=page.profile.image
+          cache_bust=true
+        %}
       </div>
     {% endif %}
 
