@@ -3,23 +3,23 @@
   contents:
     - title: MSc in Medical Biotechnology
       institution: University of Piemonte Orientale, Department of Health Sciences
-      year: 2023 - 2025
+      year: 2025
       location: Novara, Italy
     - title: Doctor of Medicine in Dentistry
       institution: Kerman University of Medical Sciences, Faculty of Dentistry
-      year: 2015 - 2022
+      year: 2022
       location: Kerman, Iran
 - title: Research Experience
   type: time_table
   contents:
     - title: Research Fellow
-      institution: CAAD (Translational Research Centre for Autoimmune and Allergic Diseases)
-      year: 2025 - Present
+      institution: Translational Research Centre for Autoimmune and Allergic Diseases (CAAD)
+      year: 2025-Present
       location: Novara, Italy
       department: INNOVATION Laboratory
     - title: Research Intern
       institution: University of Piemonte Orientale
-      year: 2024 - 2025
+      year: 2024-2025
       location: Novara, Italy
       department: Regenerative Anatomy Laboratory
     - title: Research Trainee
@@ -36,32 +36,23 @@
     - Cell Culture
     - Microscopy
     - Surface Characterization
-- title: Publications
-  type: list
-  contents:
-    - <strong>Cu/Zn-doped PEO titanium with waveform-tunable bioactivity for dental implants.</strong> <em>Surfaces and Interfaces.</em> <a href="https://doi.org/10.1016/j.surfin.2026.111016" target="_blank" rel="noopener noreferrer">doi:10.1016/j.surfin.2026.111016</a>
-    - <strong>Oral health-related quality of life among children aged 11-14 years old with and without parental care in south-east of Iran.</strong> <em>Pesquisa Brasileira em Odontopediatria e Clínica Integrada.</em> <a href="https://doi.org/10.1590/pboci.2023.069" target="_blank" rel="noopener noreferrer">doi:10.1590/pboci.2023.069</a>
-- title: Conferences
-  type: list
-  contents:
-    - '<strong>Advancing dental implant technology: Bioactive surface modification for optimized interactions with the oral environment.</strong> 34th Annual Conference of the European Society for Biomaterials (ESB 2025).'
 - title: Professional Experience
   type: time_table
   contents:
     - title: Office Assistant, Cochrane Iran Associate Center
       institution: Cochrane
-      year: 2022 - 2023
+      year: 2022-2023
       location: Remote
       employment_type: Part-time
     - title: Data Annotator & Clinical Expert
       institution: FANAP Co.
-      year: 2022 - 2023
+      year: 2022-2023
       location: Remote
       employment_type: Contract
       department: Advanced Technologies Lab (ZLab)
     - title: Dental Intern, Dental Faculty Hospital
       institution: Kerman University of Medical Sciences
-      year: 2020 - 2022
+      year: 2020-2022
       location: Kerman, Iran
       employment_type: Full-time
 - title: Trainings
