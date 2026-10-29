@@ -1,101 +1,112 @@
-<!-- _layouts/cv.html -->
-{% unless site.data.resume %}
-<div class="post">
-
-  <header class="post-header" style="display:flex;justify-content:flex-end;margin-bottom:0.75rem;">
-    {% if page.cv_pdf %}
-    <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" download aria-label="Download full CV (PDF)" title="Download full CV (PDF)" style="display:inline-flex;align-items:center;justify-content:center;padding:0.25rem;font-size:2rem;line-height:1;text-decoration:none;">
+{% if page.cv_pdf %}
+  <div style="display:flex;justify-content:flex-end;margin-bottom:0.75rem;">
+    <a
+      href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+      download
+      aria-label="Download full CV (PDF)"
+      title="Download full CV (PDF)"
+      style="display:inline-flex;align-items:center;justify-content:center;padding:0.25rem;font-size:2rem;line-height:1;text-decoration:none;"
+    >
       <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
     </a>
-    {% endif %}
-  </header>
+  </div>
+{% endif %}
 
-  <article>
-    <div class="cv">
-      {% for entry in site.data.cv %}
-        <a class="anchor" id="{{ entry.title }}"></a>
-        <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-          <div>
-          {% if entry.type == "list" %}
-            {% include cv/list.html %}
-          {% elsif entry.type == "map" %}
-            {% include cv/map.html %}
-          {% elsif entry.type == "nested_list" %}
-            {% include cv/nested_list.html %}
-          {% elsif entry.type == "time_table" %}
-            {% include cv/time_table.html %}
-          {% elsif entry.type == "list_groups" %}
-            {% include cv/list_groups.html %}
-          {% else %}
-            {{ entry.contents }}
-          {% endif %}
-          </div>
+<div class="cv">
+  {% unless site.data.resume %}
+    {% for entry in site.data.cv %}
+      <div class="card mt-3 p-3">
+        <h2
+          id="cv-{{ entry.title | slugify }}"
+          class="card-title font-weight-medium merged-cv-section"
+        >
+          {{ entry.title }}
+        </h2>
+
+        <div>
+          {% case entry.type %}
+            {% when "list" %}
+              {% include cv/list.html %}
+
+            {% when "map" %}
+              {% include cv/map.html %}
+
+            {% when "nested_list" %}
+              {% include cv/nested_list.html %}
+
+            {% when "time_table" %}
+              {% include cv/time_table.html %}
+
+            {% when "list_groups" %}
+              {% include cv/list_groups.html %}
+
+            {% else %}
+              {{ entry.contents }}
+          {% endcase %}
         </div>
-      {% endfor %}
       </div>
-  </article>
+    {% endfor %}
 
-</div>
-{% else %}
-<div class="post">
-
-  <header class="post-header" style="display:flex;justify-content:flex-end;margin-bottom:0.75rem;">
-    {% if page.cv_pdf %}
-    <a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" download aria-label="Download full CV (PDF)" title="Download full CV (PDF)" style="display:inline-flex;align-items:center;justify-content:center;padding:0.25rem;font-size:2rem;line-height:1;text-decoration:none;">
-      <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
-    </a>
-    {% endif %}
-  </header>
-
-  <article>
-    <div class="cv">
-      {% for data in site.data.resume %}
-        {% if site.jsonresume and site.jsonresume.size > 0 %}
-          {% unless site.jsonresume contains data[0] %}
-            {% continue %}
-          {% endunless %}
-        {% endif %}
-        {% if data[0] == "meta" or data[1].size == 0 %}
+  {% else %}
+    {% for data in site.data.resume %}
+      {% if site.jsonresume and site.jsonresume.size > 0 %}
+        {% unless site.jsonresume contains data[0] %}
           {% continue %}
-        {% endif %}
-        <a class="anchor" id="{{ data[0] }}"></a>
-        <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
-          <div>
+        {% endunless %}
+      {% endif %}
+
+      {% if data[0] == "meta" or data[1].size == 0 %}
+        {% continue %}
+      {% endif %}
+
+      <div class="card mt-3 p-3">
+        <h2
+          id="cv-{{ data[0] | slugify }}"
+          class="card-title font-weight-medium merged-cv-section"
+        >
+          {{ data[0] | capitalize }}
+        </h2>
+
+        <div>
           {% case data[0] %}
             {% when "basics" %}
               {% include resume/basics.html %}
+
             {% when "education" %}
               {% include resume/education.html %}
+
             {% when "work" %}
               {% include resume/work.html %}
+
             {% when "volunteer" %}
               {% include resume/volunteer.html %}
+
             {% when "projects" %}
               {% include resume/projects.html %}
+
             {% when "awards" %}
               {% include resume/awards.html %}
+
             {% when "skills" %}
               {% include resume/skills.html %}
+
             {% when "publications" %}
               {% include resume/publications.html %}
+
             {% when "languages" %}
               {% include resume/languages.html %}
+
             {% when "interests" %}
               {% include resume/interests.html %}
+
             {% when "certificates" %}
               {% include resume/certificates.html %}
+
             {% when "references" %}
               {% include resume/references.html %}
-            {% else %}
-
           {% endcase %}
-          </div>
         </div>
-      {% endfor %}
       </div>
-  </article>
-
+    {% endfor %}
+  {% endunless %}
 </div>
-{% endunless %}
