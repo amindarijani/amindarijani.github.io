@@ -12,7 +12,7 @@
 
     {% if page.layout == "about" %}
       <style>
-        /* Preserve the theme's original container width. */
+        /* Use the theme's original container width. */
         .cv-page-container .cv-page-row {
           display: grid;
           grid-template-columns: 130px minmax(0, 1fr);
@@ -20,7 +20,7 @@
           align-items: start;
         }
 
-        /* Allow the sticky sidebar to follow the full CV height. */
+        /* Stretch the sidebar so its contents can stay sticky. */
         .cv-page-sidebar {
           min-width: 0;
           align-self: stretch;
@@ -35,7 +35,7 @@
 
         .cv-page-portrait {
           width: 120px;
-          margin: 0 0 1.25rem;
+          margin: 0 0 1rem;
           padding: 0;
         }
 
@@ -52,7 +52,26 @@
           margin: 0;
         }
 
-        /* Align menu text with the photo's left edge. */
+        /* Name and role underneath the portrait. */
+        .cv-sidebar-identity {
+          margin-bottom: 1.25rem;
+        }
+
+        .cv-sidebar-name {
+          margin: 0 0 0.4rem;
+          font-size: 1rem;
+          font-weight: 600;
+          line-height: 1.4;
+          overflow-wrap: anywhere;
+        }
+
+        .cv-sidebar-role {
+          margin: 0;
+          font-size: 0.8rem;
+          line-height: 1.5;
+        }
+
+        /* Align navigation with the portrait and name. */
         .cv-page-sidebar #toc-sidebar {
           position: static !important;
           width: 100%;
@@ -126,11 +145,14 @@
 
           .cv-page-portrait {
             width: 100px;
-            margin-bottom: 0;
           }
 
           .cv-page-sidebar #toc-sidebar {
             display: none;
+          }
+
+          .cv-sidebar-identity {
+            margin-bottom: 0;
           }
 
           #cv-back-to-top {
@@ -167,6 +189,21 @@
                   %}
                 </div>
               {% endif %}
+
+              <div class="cv-sidebar-identity">
+                <h1
+                  class="cv-sidebar-name"
+                  data-toc-skip
+                >
+                  {{ site.first_name }}
+                  {{ site.middle_name }}
+                  {{ site.last_name }}
+                </h1>
+
+                <p class="cv-sidebar-role">
+                  Biomedical Researcher
+                </p>
+              </div>
 
               <nav
                 id="toc-sidebar"
@@ -244,9 +281,7 @@
       <script>
         (function () {
           var button = document.getElementById("cv-back-to-top");
-          var title = document.querySelector(
-            ".cv-page-main .post-title"
-          );
+          var heading = document.querySelector(".cv-sidebar-name");
 
           function updateButton() {
             button.hidden = window.scrollY < 400;
@@ -257,9 +292,9 @@
               "(prefers-reduced-motion: reduce)"
             ).matches;
 
-            if (title) {
-              title.setAttribute("tabindex", "-1");
-              title.focus({ preventScroll: true });
+            if (heading) {
+              heading.setAttribute("tabindex", "-1");
+              heading.focus({ preventScroll: true });
             }
 
             window.scrollTo({
