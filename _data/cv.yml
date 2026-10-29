@@ -5,8 +5,7 @@
       institution: University of Piemonte Orientale, Department of Health Sciences
       year: 2023 - 2025
       location: Novara, Italy
-      maindescription: "Major: Cell Therapy, Tissue Engineering and Regenerative Medicine"
-    - title: Doctorate Degree in Dentistry
+    - title: Doctor of Medicine in Dentistry
       institution: Kerman University of Medical Sciences, Faculty of Dentistry
       year: 2015 - 2022
       location: Kerman, Iran
@@ -17,27 +16,26 @@
       institution: CAAD (Translational Research Centre for Autoimmune and Allergic Diseases)
       year: 2025 - Present
       location: Novara, Italy
-      department: INNOVATION Laboratory (Tissue Engineering & Biomaterials Evaluation)
+      department: INNOVATION Laboratory
     - title: Research Intern
       institution: University of Piemonte Orientale
       year: 2024 - 2025
       location: Novara, Italy
       department: Regenerative Anatomy Laboratory
-    - title: Erasmus+ Research Trainee
+    - title: Research Trainee
       institution: University of Oslo
-      year: "2024"
+      year: '2024'
       location: Oslo, Norway
       department: Department of Biomaterials
 - title: Lab Skills
   type: list
   contents:
-    - "Cell culture: 2D and 3D mammalian cell culture; primary, immortalized, tumor-derived and stem cells."
-    - "Microbiology: planktonic and sessile cultures, biofilm models and antibacterial testing."
-    - "Cell biology: assessment of cell viability, metabolic activity, cytotoxicity, adhesion, proliferation, differentiation and maturation."
-    - "Molecular biology: gene expression analysis by RT-qPCR (RNA isolation, cDNA synthesis and qPCR)."
-    - "Staining: histological, histochemical and immunofluorescence staining."
-    - "Microscopy: light, fluorescence, confocal and scanning electron microscopy."
-    - "Surface characterization: optical profilometry, energy-dispersive X-ray spectroscopy (EDS), contact-angle and surface-energy analysis."
+    - Cellular & Molecular Biology
+    - Microbiology
+    - Histology
+    - Cell Culture
+    - Microscopy
+    - Surface Characterization
 - title: Publications
   type: list
   contents:
@@ -46,7 +44,7 @@
 - title: Conferences
   type: list
   contents:
-    - "<strong>Advancing dental implant technology: Bioactive surface modification for optimized interactions with the oral environment.</strong> 34th Annual Conference of the European Society for Biomaterials (ESB 2025)."
+    - '<strong>Advancing dental implant technology: Bioactive surface modification for optimized interactions with the oral environment.</strong> 34th Annual Conference of the European Society for Biomaterials (ESB 2025).'
 - title: Professional Experience
   type: time_table
   contents:
@@ -56,65 +54,55 @@
       location: Remote
       employment_type: Part-time
     - title: Data Annotator & Clinical Expert
-      institution: FANAP’s Advanced Technologies Lab (ZLab)
+      institution: FANAP Co.
       year: 2022 - 2023
       location: Remote
       employment_type: Contract
+      department: Advanced Technologies Lab (ZLab)
     - title: Dental Intern, Dental Faculty Hospital
       institution: Kerman University of Medical Sciences
       year: 2020 - 2022
       location: Kerman, Iran
       employment_type: Full-time
-    - title: Teacher & Educational Consultant
-      institution: Ghalamchi Educational Foundation
-      year: 2016 - 2018
-      location: Kerman, Iran
-      employment_type: Contract
 - title: Trainings
   type: time_table
   contents:
     - title: Python, Intro to Programming and Machine Learning, Pandas, Intro to AI Ethics, Data Visualization, Intermediate Machine Learning
       institution: Kaggle
-      year: "2024"
+      year: '2024'
     - title: Data Science Math Skills
       institution: Duke University
-      year: "2023"
+      year: '2023'
     - title: The Data Scientist’s Toolbox (Data Science R Specialization)
       institution: Johns Hopkins University
-      year: "2022"
+      year: '2022'
     - title: SPSS 1, 2 & Systematic Review and Meta-Analysis
-      institution: SSRC
-      year: "2021"
-    - title: "An Introduction to Meta-Analysis Software: Stata, CMA, RevMan, R"
+      institution: Tehran University of Medical Sciences
+      year: '2021'
+    - title: 'An Introduction to Meta-Analysis Software: Stata, CMA, RevMan, R'
       institution: Cochrane Iran
-      year: "2021"
-    - title: SPSS Statistical Analysis Software
-      institution: 5th International Congress on BioMedicine
-      year: "2021"
-    - title: Cell Culture
-      institution: 5th International Congress on BioMedicine
-      year: "2021"
-    - title: Bioinformatics and Data Analysis
-      institution: 5th International Congress on BioMedicine
-      year: "2021"
+      year: '2021'
+    - title: SPSS Statistical Analysis Software; Bioinformatics and Data Analysis; Cell Culture
+      institution: ICB BioMedicine Conference
+      year: '2021'
     - title: Comprehensive Course Rapid Research Education (RRE)
       institution: Kerman University of Medical Sciences
-      year: "2017"
+      year: '2017'
 - title: Honors & Awards
   type: time_table
   contents:
     - title: Research fellowship in innovative dental materials
-      institution: University of Piemonte Orientale, Italy
-      year: "2025"
-    - title: Erasmus funding
-      institution: European Union and Piemonte Region, Italy
-      year: "2024"
-    - title: Full merit-based DSU-EDISU Piemonte scholarship
-      institution: Piemonte Region, Italy
-      year: "2023"
-    - title: State-funded bursary
-      institution: Kerman University of Medical Sciences, Iran
-      year: "2015"
+      institution: University of Piemonte Orientale (UPO), Italy
+      year: '2025'
+    - title: Erasmus+ mobility funding
+      institution: University of Piemonte Orientale (UPO), Italy
+      year: '2024'
+    - title: DSU-EDISU Piemonte scholarship
+      institution: Italy
+      year: '2023'
+    - title: State bursary
+      institution: Kerman University of Medical Sciences (KMU), Iran
+      year: '2015'
 - title: Contributions & Memberships
   type: time_table
   contents:
@@ -126,16 +114,10 @@
       year: 2024 & 2025
     - title: Licensed Member (DDS, MC No. D-203558)
       institution: Medical Council of I.R. Iran, Iran
-      year: "2022"
-    - title: Member, Faculty Student Research Committee
+      year: '2022'
+    - title: Member, Faculty Student Research Committee & Union Council
       institution: Kerman University of Medical Sciences, Iran
-      year: "2021"
-    - title: Member, Rezvan Kerman Dental Relief Charity
-      institution: Iran
-      year: "2021"
-    - title: Member, Faculty Student Union Council
-      institution: Kerman University of Medical Sciences, Iran
-      year: "2016"
+      year: 2016 & 2021
 - title: References
   type: list
   contents:
