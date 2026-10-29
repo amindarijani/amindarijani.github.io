@@ -2,76 +2,129 @@
 layout: default
 ---
 
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+<style>
+  .about-cv-page > article > .about-cv-profile {
+    float: left !important;
+    width: 120px !important;
+    max-width: 100%;
+    margin: 0 1.5rem 1rem 0 !important;
+  }
 
-        <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+  .about-cv-page .about-cv-profile figure {
+    margin: 0;
+  }
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+  .about-cv-page .about-cv-profile img {
+    display: block;
+    width: 100%;
+    height: auto !important;
+  }
 
-              {% include figure.html
-              path=profile_image_path
-              class=profile_image_class
-              alt=page.profile.image
-              cache_bust=true -%}
-            {% endif -%}
-            {%- if page.profile.more_info %}
-            <div class="more-info">
-              {{ page.profile.more_info }}
-            </div>
-            {%- endif %}
-          </div>
-          {%- endif %}
+  .about-cv-page .about-cv-content {
+    display: block;
+  }
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+  .about-cv-page .about-cv-content::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-          <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
-            {%- include news.html limit=true %}
-          {%- endif %}
+  .about-cv-page .merged-cv {
+    clear: both;
+    width: 100%;
+    padding-top: 1rem;
+  }
 
-          <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %}
+  .about-cv-page .merged-cv-section {
+    font-size: 1.75rem;
+    scroll-margin-top: 6rem;
+  }
 
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
-            {%- include selected_papers.html %}
-          {%- endif %}
+  @media (max-width: 575.98px) {
+    .about-cv-page > article > .about-cv-profile {
+      width: 100px !important;
+      margin-right: 1rem !important;
+    }
+  }
+</style>
 
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
+<div class="post about-cv-page">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == "blank" %}
+        <span class="font-weight-bold">{{ site.first_name }}</span>
+        {{ site.middle_name }} {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
 
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
 
-            </div>
-          {%- endif %}
-        </article>
+  <article>
+    {% if page.profile %}
+      <div class="profile about-cv-profile">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
 
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = "img-fluid z-depth-1 rounded-circle" %}
+          {% else %}
+            {% assign profile_image_class = "img-fluid z-depth-1 rounded" %}
+          {% endif %}
+
+          {% include figure.html
+            path=profile_image_path
+            class=profile_image_class
+            alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="about-cv-content">
+      {{ content }}
+    </div>
+
+    {% if page.news and site.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit;">
+          news
+        </a>
+      </h2>
+      {% include news.html limit=true %}
+    {% endif %}
+
+    {% if page.latest_posts %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit;">
+          latest posts
+        </a>
+      </h2>
+      {% include latest_posts.html %}
+    {% endif %}
+
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit;">
+          selected publications
+        </a>
+      </h2>
+      {% include selected_papers.html %}
+    {% endif %}
+
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">
+          {% include social.html %}
+        </div>
+        <div class="contact-note">
+          {{ site.contact_note }}
+        </div>
+      </div>
+    {% endif %}
+  </article>
 </div>
