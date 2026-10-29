@@ -3,72 +3,26 @@ layout: default
 ---
 
 <style>
-  /* Wide page containing the sidebar and main content. */
-  .container:has(.about-cv-page) {
-    width: calc(100% - 3rem);
-    max-width: 1200px !important;
-  }
-
-  /* Override the existing About-page grid in _base.scss. */
-  .post.about-cv-page {
-    display: block !important;
-    position: relative;
-    width: 100%;
-    min-width: 0;
-  }
-
-  .post.about-cv-page > article {
+  .post.cv-main-page {
     display: block !important;
     width: 100%;
     min-width: 0;
   }
 
-  /* Name and subtitle stay to the left of the photo. */
-  .post.about-cv-page > .post-header {
-    display: block;
-    padding-right: 150px;
-    margin-bottom: 2rem;
+  .post.cv-main-page > .post-header {
+    padding: 0;
+    margin-bottom: 1.5rem;
   }
 
-  /* Small portrait aligned with the top-right content edge. */
-  .post.about-cv-page > article > .profile {
-    position: absolute;
-    top: 0;
-    right: 0;
-    float: none !important;
-    width: 120px !important;
-    max-width: 120px;
-    margin: 0 !important;
-  }
-
-  .about-cv-page .profile figure {
-    margin: 0;
-  }
-
-  .about-cv-page .profile img {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    height: auto !important;
-  }
-
-  /* Biography and CV use the whole main content column. */
-  .post.about-cv-page .about-cv-content {
+  .post.cv-main-page > article {
     display: block !important;
-    float: none !important;
-    width: 100% !important;
-    max-width: none !important;
+    width: 100%;
     min-width: 0;
-    margin: 0;
   }
 
-  .about-cv-page .about-cv-content > p {
-    padding-right: 150px;
-  }
-
-  .about-cv-page #cv,
-  .about-cv-page .merged-cv,
-  .about-cv-page .cv {
+  .cv-main-page #cv,
+  .cv-main-page .merged-cv,
+  .cv-main-page .cv {
     display: block;
     clear: both;
     width: 100% !important;
@@ -76,44 +30,22 @@ layout: default
     box-sizing: border-box;
   }
 
-  .about-cv-page #cv {
-    padding-top: 1.5rem;
+  .cv-main-page #cv {
+    padding-top: 1rem;
   }
 
-  .about-cv-page .cv > .card {
+  .cv-main-page .cv > .card {
     width: 100%;
-    max-width: none;
     box-sizing: border-box;
   }
 
-  .about-cv-page .merged-cv-section {
+  .cv-main-page .merged-cv-section {
     font-size: 1.75rem;
     scroll-margin-top: 6rem;
   }
-
-  @media (max-width: 575.98px) {
-    .container:has(.about-cv-page) {
-      width: 100%;
-    }
-
-    .post.about-cv-page > article > .profile {
-      width: 90px !important;
-      max-width: 90px;
-    }
-
-    .post.about-cv-page > .post-header {
-      padding-right: 110px;
-      min-height: 125px;
-      margin-bottom: 1rem;
-    }
-
-    .about-cv-page .about-cv-content > p {
-      padding-right: 0;
-    }
-  }
 </style>
 
-<div class="post about-cv-page">
+<div class="post cv-main-page">
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == "blank" %}
@@ -128,28 +60,7 @@ layout: default
   </header>
 
   <article>
-    {% if page.profile and page.profile.image %}
-      <div class="profile">
-        {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-
-        {% if page.profile.image_circular %}
-          {% assign profile_image_class = "img-fluid z-depth-1 rounded-circle" %}
-        {% else %}
-          {% assign profile_image_class = "img-fluid z-depth-1 rounded" %}
-        {% endif %}
-
-        {% include figure.html
-          path=profile_image_path
-          class=profile_image_class
-          alt=page.profile.image
-          cache_bust=true
-        %}
-      </div>
-    {% endif %}
-
-    <div class="about-cv-content">
-      {{ content }}
-    </div>
+    {{ content }}
 
     {% if page.news and site.announcements.enabled %}
       <h2>
@@ -183,6 +94,7 @@ layout: default
         <div class="contact-icons">
           {% include social.html %}
         </div>
+
         <div class="contact-note">
           {{ site.contact_note }}
         </div>
