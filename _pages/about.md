@@ -1,6 +1,6 @@
 ---
 layout: about
-title: CV
+title: cv
 permalink: /
 subtitle: Biomedical Researcher
 
